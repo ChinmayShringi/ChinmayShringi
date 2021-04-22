@@ -1,12 +1,3 @@
-- 👋 Hi, I’m @ChinmayShringi
-- 👀 I’m interested in Fullstack development, cybersecurity, developing new technologies
-- 🌱 I’m currently learning cybersecurity(eJPT), networking(ccna), AWS (certificate cources)
-- 💞️ I’m looking to collaborate on new projects that require techinal help.
-- 📫 How to reach me chinmayshringi4@gmail.com
-
-
-
-
 ### Hi there, I'm Chinmay  👋
 ## I'm a Student and a Developer!! 👀 
 
@@ -41,9 +32,9 @@
 
   <img align="left" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=ChinmayShringi&show_icons=true&hide_border=true" />
 
-</details>
 
-[website]:Coming Soon
+
+## website:Coming Soon
 
 <!---
 ChinmayShringi/ChinmayShringi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
