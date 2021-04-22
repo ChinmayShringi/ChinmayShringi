@@ -20,17 +20,11 @@
 [<img align="left" alt="Deno" width="26px" src="https://raw.githubusercontent.com/github/explore/361e2821e2dea67711cde99c9c40ed357061cf27/topics/deno/deno.png" />]
 [<img align="left" alt="MySQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" />]
 [<img align="left" alt="Nginx" width="26px" src="https://raw.githubusercontent.com/github/explore/85cceaeeaf993ca35664dc37ea24f9237fbbfc14/topics/nginx/nginx.png" />]
-
-
-
-<br />
   <summary>:zap: GitHub Stats</summary>
 
   <img align="left" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=ChinmayShringi&show_icons=true&hide_border=true" />
-
-
-
-## website:Coming Soon
+  </br>
+## Website: coming soon
 
 <!---
 ChinmayShringi/ChinmayShringi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
