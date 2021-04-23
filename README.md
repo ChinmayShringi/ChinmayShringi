@@ -1,4 +1,4 @@
-### Hi there, I'm Chinmay  👋
+## Hi there, I'm Chinmay  👋
 ## I'm a Student and a Developer!! 👀 
 
 - 🔭 I am an open source developer enthusiast!
