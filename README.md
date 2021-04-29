@@ -28,7 +28,7 @@
 <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=ChinmayShringi&show_icons=true&hide_border=true" />
 
 
-## Website: coming soon
+## Website: <a href="https://chinmayshringi.web.app/" target="_blank">Developing</a>
 
 <!---
 ChinmayShringi/ChinmayShringi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
