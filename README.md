@@ -25,7 +25,7 @@
 - MongoDB <img align="left" alt="Nginx" width="26px" src="https://raw.githubusercontent.com/github/explore/85cceaeeaf993ca35664dc37ea24f9237fbbfc14/topics/mongodb/mongodb.png" /><br/>
 
 ## :zap: GitHub Stats
-<img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=ChinmayShringi&show_icons=true&hide_border=true" />
+<img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=ChinmayShringi&show_icons=true&hide_border=true&count_private=true" />
 
 
 ## Website: <a href="https://chinmayshringi.web.app/" target="_blank">Developing</a>
