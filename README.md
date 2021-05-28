@@ -30,7 +30,7 @@
 
 
 ## ✨ Contact ✨
-- Website : <a href="https://chinmayshringi.web.app/" target="_blank">Developing</a>
+- Website : <a href="https://chinmayshringi.web.app/" target="_blank">ChinmayShringi.com</a>
 - Email ID : chinmayshringi4@gmail.com 
 - LinkedIn : <a href="https://www.linkedin.com/in/chinmay-shringi-105736173/" target="_blank">ChinmayShringi</a>
 <!---
