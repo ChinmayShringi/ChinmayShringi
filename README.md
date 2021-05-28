@@ -29,8 +29,10 @@
 <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=ChinmayShringi&show_icons=true&hide_border=true&count_private=true" />
 
 
-## Website: <a href="https://chinmayshringi.web.app/" target="_blank">Developing</a>
-
+## ✨ Contact ✨
+- Website : <a href="https://chinmayshringi.web.app/" target="_blank">Developing</a>
+- Email ID : chinmayshringi4@gmail.com 
+- LinkedIn : <a href="https://www.linkedin.com/in/chinmay-shringi-105736173/" target="_blank">ChinmayShringi</a>
 <!---
 ChinmayShringi/ChinmayShringi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
