@@ -1,7 +1,7 @@
 ## Hi there, I'm Chinmay  👋
 ## I'm a Student and a Full Stack Developer!! 👀 
 
-- 🔭 I am an open source developer enthusiast!
+- 🔭 I am an open source developer enthusiast! Looking forward to collaborate on opensource projects. :)
 - 🌱 I’m currently learning everything i can find. 🤣
 - 👯 I’m looking to collaborate with open source projects.
 - 🥅 I’m interested in Fullstack development, cybersecurity, developing new technologies.
