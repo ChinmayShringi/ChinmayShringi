@@ -1,6 +1,6 @@
 ## Hi there, I'm Chinmay  👋
-## I'm a Senior Full Stack Developer!! 👀 
-## I am AWS CLP and CCNA cisco academy certified
+### I'm a Senior Full Stack Developer!! 
+### I am AWS CLP and CCNA cisco academy certified
 
 - 🔭 I am an open source developer enthusiast! Looking forward to collaborate on OpenSource projects. :)
 - 🌱 I’m currently learning everything i can find.
