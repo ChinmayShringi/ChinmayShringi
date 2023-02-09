@@ -1,29 +1,34 @@
 ## Hi there, I'm Chinmay  👋
-## I'm a Student and a Full Stack Developer!! 👀 
+## I'm a Senior Full Stack Developer!! 👀 
+## I am AWS CLP and CCNA cisco academy certified
 
 - 🔭 I am an open source developer enthusiast! Looking forward to collaborate on OpenSource projects. :)
-- 🌱 I’m currently learning everything i can find. 🤣
+- 🌱 I’m currently learning everything i can find.
 - 👯 I’m looking to collaborate with open source projects.
-- 🥅 I’m interested in Fullstack development, cybersecurity, developing new technologies.
+- 🥅 I’m interested in Fullstack development, Blockchain and developing new technologies.
 
 <br />
 
 ### Languages and Tools:
+### HIGHLIGHTED SKILLS:
+WebRTC, Typescript and Sockets cleared AWS Cloud Practitioner.
+### TECHNOLOGY STACK:
+Full-Stack and MERN/MEAN.
+### MOBILE DEVELOPMENT:
+React Native and Flutter.
+### TECHNOLOGY:
+Node.js, AdonisJs, Angular, React.js, Vue3, JavaScript, Typescript and Nginx.
+### LIBRARIES:
+GraphQL, ExpressJS, PassportJS, MomentJS, Lint, WinstonJS, and more.
 
-- Visual Studio <img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" /><br/>
+### DATABASE:
+MySQL, MongoDB, Postgres, and Firebase.
 
-- React <img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
+### IOT DEVICES:
+Raspberry Pi, Arduino UNO, and NodeMCU ESP8266.
 
-- React Native <img align="left" alt="React Native" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" /><br/>
-- Angular <img align="left" alt="Angular" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png" /><br/>
-- Flutter <img align="left" alt="Flutter" width="26px" src="https://raw.githubusercontent.com/github/explore/cebd63002168a05a6a642f309227eefeccd92950/topics/flutter/flutter.png" /><br/>
-- WebRTC <img align="left" alt="Flutter" width="26px" src="https://avatars.githubusercontent.com/u/10526312?s=200&v=4" /><br/>
-- NodeJs/Ts <img align="left" alt="Node.js" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" /><br/>
-- Fastify <img align="left" alt="Fastify" width="26px" src="https://avatars.githubusercontent.com/u/24939410?s=200&v=4" /><br/>
-- Deno <img align="left" alt="Deno" width="26px" src="https://raw.githubusercontent.com/github/explore/361e2821e2dea67711cde99c9c40ed357061cf27/topics/deno/deno.png" /><br/>
-- MySQL <img align="left" alt="MySQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" /><br/>
-- Nginx <img align="left" alt="Nginx" width="26px" src="https://raw.githubusercontent.com/github/explore/85cceaeeaf993ca35664dc37ea24f9237fbbfc14/topics/nginx/nginx.png" /><br/>
-- MongoDB <img align="left" alt="Nginx" width="26px" src="https://raw.githubusercontent.com/github/explore/85cceaeeaf993ca35664dc37ea24f9237fbbfc14/topics/mongodb/mongodb.png" /><br/>
+### SERVER:
+AWS, Docker, Firebase, DigitalOcean, and Server Migration
 
 ## :zap: GitHub Stats
 <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=ChinmayShringi&show_icons=true&hide_border=true&count_private=true" />
