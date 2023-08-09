@@ -30,9 +30,6 @@ Raspberry Pi, Arduino UNO, and NodeMCU ESP8266.
 ### SERVER:
 AWS, Docker, Firebase, DigitalOcean, and Server Migration
 
-## :zap: GitHub Stats
-<img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=ChinmayShringi&show_icons=true&hide_border=true&count_private=true" />
-
 
 ## ✨ Contact ✨
 - Website : <a href="https://chinmayshringi.web.app/" target="_blank">ChinmayShringi.com</a>
