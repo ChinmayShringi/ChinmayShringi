@@ -11,13 +11,13 @@
 
 ### Languages and Tools:
 ### HIGHLIGHTED SKILLS:
-WebRTC, Typescript and Sockets cleared AWS Cloud Practitioner.
+Spring Boot, WebRTC, Typescript and Sockets cleared AWS Cloud Practitioner.
 ### TECHNOLOGY STACK:
 Full-Stack and MERN/MEAN.
 ### MOBILE DEVELOPMENT:
 React Native and Flutter.
 ### TECHNOLOGY:
-Node.js, AdonisJs, Angular, React.js, Vue3, JavaScript, Typescript and Nginx.
+Java, Node.js, Go, AdonisJs, Angular, React.js, Vue3, JavaScript, Typescript and Nginx.
 ### LIBRARIES:
 GraphQL, ExpressJS, PassportJS, MomentJS, Lint, WinstonJS, and more.
 
