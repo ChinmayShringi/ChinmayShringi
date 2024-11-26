@@ -8,7 +8,7 @@
   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChinmayShringi)
   [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://chinmayshringi.web.app/)
 
-  ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=Senior+Full+Stack+Developer;AWS+Certified+Cloud+Practitioner;CCNA+Certified;Open+Source+Enthusiast)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=800&lines=Senior+Full+Stack+Developer;AWS+Certified+Cloud+Practitioner;CCNA+Certified;Open+Source+Enthusiast)
 </div>
 
 ## 🤖 $ whoami
@@ -49,7 +49,7 @@ const chinmay = {
 
 ## 🛠️ Weapons of Mass Development
 
-<div align="center">
+<div align="left">
 
 ### 🎭 Frontend Sorcery
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -109,16 +109,70 @@ const chinmay = {
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChinmayShringi&layout=compact&theme=radical" alt="Top Languages" />
 </div>
 
-## 🎯 Epic Quests (Projects)
+## 🎯 Epic Projects
 
-```javascript
+### 🔒 Lind Virtual Machine
+> Pioneered next-generation OS security through innovative cage-based isolation and microvisor architecture.
+- **Tech Stack:** `Rust` `C` `WebAssembly`
+- **Impact:** Advanced OS security framework with cage-based isolation
+- **Core Features:** Microvisor architecture, Security isolation, Performance optimization
+
+### 🎥 Bozu
+> Enterprise video conferencing platform with advanced WebRTC implementation and custom media routing.
+- **Tech Stack:** `WebRTC` `Spring Boot` `Next.js`
+- **Impact:** Enterprise-grade video conferencing solution
+- **Core Features:** Custom media routing, Real-time communication, Scalable architecture
+
+### 💰 Credilio
+> AI-Powered Financial Services Platform connecting banks, advisors, and consumers.
+- **Tech Stack:** `Node.js` `React` `PostgreSQL`
+- **Impact:** 1M+ downloads, connecting financial ecosystem
+- **Core Features:** AI-driven insights, Multi-party integration, Real-time analytics
+
+### 🏥 Doccine
+> Healthcare Practice Management Platform serving thousands of healthcare providers.
+- **Tech Stack:** `Java` `Spring Boot` `Hibernate`
+- **Impact:** Nationwide healthcare provider network
+- **Core Features:** Practice management, Patient care, Digital health records
+
+### 🤖 AIPES
+> Revolutionary AI-driven simulation platform for enhanced managerial training.
+- **Tech Stack:** `Java` `Next.js` `PostgreSQL`
+- **Impact:** Advanced managerial training solution
+- **Core Features:** AI simulations, Real-time feedback, Performance analytics
+
+### ⚡ Helios
+> High-performance trading platform with exceptional transaction processing.
+- **Tech Stack:** `Java 17` `Spring Boot` `Spring Cloud`
+- **Impact:** 100,000+ transactions per second
+- **Core Features:** Sub-millisecond latency, High availability, Real-time processing
+
+---
+
+<div align="center">
+  <i>Each project represents a unique challenge solved through innovative engineering.</i>
+</div>
+
+### 🏗️ More Notable Works
+
+```typescript
 const projects = {
+    featured: {
+        "🏠 TermiteFabrications": {
+            tech: ["Three.js", "WebAR", "TypeScript"],
+            highlight: "3D Home Building Platform"
+        },
+        "🔒 Lind Project": {
+            tech: ["C", "Security", "Isolation"],
+            highlight: "Secure System Architecture"
+        }
+    },
     current: {
         "🚀 Enterprise Scale Apps": "Microservices with Spring Boot & Cloud",
         "🌐 Real-time Platform": "WebRTC & Socket.io implementation",
         "📱 Cross-Platform Apps": "React Native & Flutter masterpieces"
     },
-    upcoming: "Something awesome! Stay tuned! 🔥"
+    upcoming: "More exciting projects in the pipeline! 🚀"
 };
 ```
 
@@ -153,4 +207,22 @@ const projects = {
   <i>"The only way to do great work is to love what you do." - Steve Jobs</i>
   <br/>
   <i>"Code is like humor. When you have to explain it, it's bad." - Cory House</i>
+</div>
+
+
+## 🎵 Currently Vibing To
+<div align="center">
+
+[![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/track/0pqnGHJpmpxLKifKRmU6WP)
+</div>
+
+## 🚀 Highlight Projects
+
+<div align="center">
+  <a href="https://github.com/ChinmayShringi/TermiteFabrications">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ChinmayShringi&repo=TermiteFabrications&theme=radical" />
+  </a>
+  <a href="https://github.com/Lind-Project/lind_project">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Lind-Project&repo=lind_project&theme=radical" />
+  </a>
 </div>
