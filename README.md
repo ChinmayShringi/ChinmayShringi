@@ -1,41 +1,156 @@
-## Hi there, I'm Chinmay  👋
-### I'm a Senior Full Stack Developer!! 
-### I am AWS CLP and CCNA cisco academy certified
+<div align="center">
+  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+  
+  # < Hello World 👋, I'm Chinmay />
+  ### `console.log("Welcome to my digital playground! 🎮")`
+  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chinmay-shringi/)
+  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChinmayShringi)
+  [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://chinmayshringi.web.app/)
 
-- 🔭 I am an open source developer enthusiast! Looking forward to collaborate on OpenSource projects. :)
-- 🌱 I’m currently learning everything i can find.
-- 👯 I’m looking to collaborate with open source projects.
-- 🥅 I’m interested in Fullstack development, Blockchain and developing new technologies.
+  ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=Senior+Full+Stack+Developer;AWS+Certified+Cloud+Practitioner;CCNA+Certified;Open+Source+Enthusiast)
+</div>
 
-<br />
+## 🤖 $ whoami
 
-### Languages and Tools:
-### HIGHLIGHTED SKILLS:
-Spring Boot, WebRTC, Typescript and Sockets cleared AWS Cloud Practitioner.
-### TECHNOLOGY STACK:
-Full-Stack and MERN/MEAN.
-### MOBILE DEVELOPMENT:
-React Native and Flutter.
-### TECHNOLOGY:
-Java, Node.js, Go, AdonisJs, Angular, React.js, Vue3, JavaScript, Typescript and Nginx.
-### LIBRARIES:
-GraphQL, ExpressJS, PassportJS, MomentJS, Lint, WinstonJS, and more.
+```typescript
+const chinmay = {
+    role: "Senior Full Stack Developer",
+    code: ["JavaScript", "TypeScript", "Java", "Go", "Python"],
+    expertise: {
+        frontend: ["React", "Angular", "Vue", "Next.js"],
+        backend: ["Spring Boot", "Node.js", "Express", "NestJS"],
+        cloud: ["AWS", "Docker", "Kubernetes"],
+        database: ["MongoDB", "PostgreSQL", "MySQL", "Redis"]
+    },
+    currentFocus: "Architecting scalable enterprise solutions",
+    architecture: ["Microservices", "Event-Driven", "Serverless"],
+    funFact: "I debug with console.log and pretend I didn't",
+    dailyRoutine: {
+        coffee: "∞",
+        code: "24/7",
+        debug: "console.log('🔍')",
+        repeat: true
+    },
+    motto: "It works on my machine! 🤷‍♂️ Let's containerize it! 🐳"
+};
+```
 
-### DATABASE:
-MySQL, MongoDB, Postgres, and Firebase.
+> When I'm not coding, I'm probably thinking about coding... or coffee ☕
 
-### IOT DEVICES:
-Raspberry Pi, Arduino UNO, and NodeMCU ESP8266.
+## 🚀 Mission Control
 
-### SERVER:
-AWS, Docker, Firebase, DigitalOcean, and Server Migration
+- 🔭 Currently orchestrating microservices like a symphony conductor
+- 🌱 Learning something new every `git commit`
+- 👯 Looking to collaborate on projects that make developers' lives easier
+- 💡 Building solutions that scale faster than my coffee consumption
+- 🎯 Goal: To write code so clean that it looks like it was written by Disney
+- ⚡ Fun fact: I speak multiple languages, but my favorite is JavaScript!
 
+## 🛠️ Weapons of Mass Development
 
-## ✨ Contact ✨
-- Website : <a href="https://chinmayshringi.web.app/" target="_blank">ChinmayShringi.com</a>
-- Email ID : chinmayshringi4@gmail.com 
-- LinkedIn : <a href="https://www.linkedin.com/in/chinmay-shringi-105736173/" target="_blank">ChinmayShringi</a>
-<!---
-ChinmayShringi/ChinmayShringi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<div align="center">
+
+### 🎭 Frontend Sorcery
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![Material UI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+### 🏗️ Backend Wizardry
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![AdonisJS](https://img.shields.io/badge/AdonisJS-220052?style=for-the-badge&logo=adonisjs&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)
+
+### 📱 Mobile Magic
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Ionic](https://img.shields.io/badge/Ionic-3880FF?style=for-the-badge&logo=ionic&logoColor=white)
+
+### 🗄️ Database Sorcery
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFA611?style=for-the-badge&logo=firebase&logoColor=white)
+
+### ☁️ Cloud & DevOps Arsenal
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Digital Ocean](https://img.shields.io/badge/Digital_Ocean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white)
+
+### 🤖 IoT Laboratory
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![ESP8266](https://img.shields.io/badge/ESP8266-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+
+</div>
+
+## 📊 Battle Statistics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ChinmayShringi&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ChinmayShringi&theme=radical" alt="GitHub Streak" />
+  
+  <!-- Replace the broken activity graph with this one -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ChinmayShringi&theme=radical" alt="Activity Graph" />
+  
+  <!-- Optional: Add these additional stat cards -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChinmayShringi&layout=compact&theme=radical" alt="Top Languages" />
+</div>
+
+## 🎯 Epic Quests (Projects)
+
+```javascript
+const projects = {
+    current: {
+        "🚀 Enterprise Scale Apps": "Microservices with Spring Boot & Cloud",
+        "🌐 Real-time Platform": "WebRTC & Socket.io implementation",
+        "📱 Cross-Platform Apps": "React Native & Flutter masterpieces"
+    },
+    upcoming: "Something awesome! Stay tuned! 🔥"
+};
+```
+
+## 💭 Developer Humor
+
+> Why do programmers prefer dark mode?
+> 
+> Because light attracts bugs! 🪲
+
+> Why did the developer go broke?
+> 
+> Because he used up all his cache! 💸
+
+## 📡 Signal Transmission (Contact)
+
+<div align="center">
+  <a href="https://chinmayshringi.web.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=FF5722" alt="Portfolio"/>
+  </a>
+  <a href="mailto:chinmayshringi4@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://www.linkedin.com/in/chinmay-shringi/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/ChinmayShringi" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+</div>
+
+<div align="center">
+  <i>"The only way to do great work is to love what you do." - Steve Jobs</i>
+  <br/>
+  <i>"Code is like humor. When you have to explain it, it's bad." - Cory House</i>
+</div>
