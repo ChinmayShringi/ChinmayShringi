@@ -215,14 +215,3 @@ const projects = {
 
 [![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/track/0pqnGHJpmpxLKifKRmU6WP)
 </div>
-
-## 🚀 Highlight Projects
-
-<div align="center">
-  <a href="https://github.com/ChinmayShringi/TermiteFabrications">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ChinmayShringi&repo=TermiteFabrications&theme=radical" />
-  </a>
-  <a href="https://github.com/Lind-Project/lind_project">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Lind-Project&repo=lind_project&theme=radical" />
-  </a>
-</div>
