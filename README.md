@@ -8,11 +8,10 @@
   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChinmayShringi)
   [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://chinmayshringi.web.app/)
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=800&lines=Senior+Full+Stack+Developer;AWS+Certified+Cloud+Practitioner;CCNA+Certified;Open+Source+Enthusiast)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=800&lines=Senior+Full+Stack+Developer;AWS+Certified+Cloud+Practitioner;CCNA+Certified;Architecting+Scalable+Solutions;Passionate+Learner+%26+Mentor)
 </div>
 
 ## 🤖 $ whoami
-
 ```typescript
 const chinmay = {
     role: "Senior Full Stack Developer",
@@ -21,7 +20,7 @@ const chinmay = {
         frontend: ["React", "Angular", "Vue", "Next.js"],
         backend: ["Spring Boot", "Node.js", "Express", "NestJS"],
         cloud: ["AWS", "Docker", "Kubernetes"],
-        database: ["MongoDB", "PostgreSQL", "MySQL", "Redis"]
+        database: ["MongoDB", "PostgreSQL", "MySQL", "Redis"],
     },
     currentFocus: "Architecting scalable enterprise solutions",
     architecture: ["Microservices", "Event-Driven", "Serverless"],
@@ -30,16 +29,15 @@ const chinmay = {
         coffee: "∞",
         code: "24/7",
         debug: "console.log('🔍')",
-        repeat: true
+        repeat: true,
     },
-    motto: "It works on my machine! 🤷‍♂️ Let's containerize it! 🐳"
+    motto: "It works on my machine! 🤷‍♂️ Let's containerize it! 🐳",
 };
 ```
 
 > When I'm not coding, I'm probably thinking about coding... or coffee ☕
 
 ## 🚀 Mission Control
-
 - 🔭 Currently orchestrating microservices like a symphony conductor
 - 🌱 Learning something new every `git commit`
 - 👯 Looking to collaborate on projects that make developers' lives easier
@@ -48,7 +46,6 @@ const chinmay = {
 - ⚡ Fun fact: I speak multiple languages, but my favorite is JavaScript!
 
 ## 🛠️ Weapons of Mass Development
-
 <div align="left">
 
 ### 🎭 Frontend Sorcery
@@ -93,20 +90,18 @@ const chinmay = {
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 ![ESP8266](https://img.shields.io/badge/ESP8266-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-
 </div>
 
 ## 📊 Battle Statistics
-
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ChinmayShringi&show_icons=true&theme=radical" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ChinmayShringi&theme=radical" alt="GitHub Streak" />
-  
+  <img src="https://github-readme-stats.vercel.app/api?username=ChinmayShringi&show_icons=true&theme=radical" alt="GitHub Stats">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ChinmayShringi&theme=radical" alt="GitHub Streak">
+
   <!-- Replace the broken activity graph with this one -->
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ChinmayShringi&theme=radical" alt="Activity Graph" />
-  
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ChinmayShringi&theme=radical" alt="Activity Graph">
+
   <!-- Optional: Add these additional stat cards -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChinmayShringi&layout=compact&theme=radical" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChinmayShringi&layout=compact&theme=radical" alt="Top Languages">
 </div>
 
 ## 🎯 Epic Projects
@@ -148,70 +143,67 @@ const chinmay = {
 - **Core Features:** Sub-millisecond latency, High availability, Real-time processing
 
 ---
-
 <div align="center">
   <i>Each project represents a unique challenge solved through innovative engineering.</i>
 </div>
 
 ### 🏗️ More Notable Works
-
 ```typescript
 const projects = {
     featured: {
         "🏠 TermiteFabrications": {
             tech: ["Three.js", "WebAR", "TypeScript"],
-            highlight: "3D Home Building Platform"
+            highlight: "3D Home Building Platform",
         },
         "🔒 Lind Project": {
             tech: ["C", "Security", "Isolation"],
-            highlight: "Secure System Architecture"
-        }
+            highlight: "Secure System Architecture",
+        },
     },
     current: {
         "🚀 Enterprise Scale Apps": "Microservices with Spring Boot & Cloud",
         "🌐 Real-time Platform": "WebRTC & Socket.io implementation",
-        "📱 Cross-Platform Apps": "React Native & Flutter masterpieces"
+        "📱 Cross-Platform Apps": "React Native & Flutter masterpieces",
     },
-    upcoming: "More exciting projects in the pipeline! 🚀"
+    upcoming: "More exciting projects in the pipeline! 🚀",
 };
 ```
 
 ## 💭 Developer Humor
 
-> Why do programmers prefer dark mode?
-> 
-> Because light attracts bugs! 🪲
+> A random developer joke for you:
+```
+(async function() {
+  const res = await fetch('https://official-joke-api.appspot.com/random_joke');
+  const joke = await res.json();
+  console.log(`${joke.setup} - ${joke.punchline}`);
+})();
+```
 
-> Why did the developer go broke?
-> 
-> Because he used up all his cache! 💸
+_You can try this in your browser console!_
 
 ## 📡 Signal Transmission (Contact)
-
 <div align="center">
   <a href="https://chinmayshringi.web.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=FF5722" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=FF5722" alt="Portfolio">
   </a>
   <a href="mailto:chinmayshringi4@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
   <a href="https://www.linkedin.com/in/chinmay-shringi/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="https://github.com/ChinmayShringi" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
 </div>
-
 <div align="center">
   <i>"The only way to do great work is to love what you do." - Steve Jobs</i>
   <br/>
   <i>"Code is like humor. When you have to explain it, it's bad." - Cory House</i>
 </div>
 
-
 ## 🎵 Currently Vibing To
 <div align="center">
-
 [![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/track/0pqnGHJpmpxLKifKRmU6WP)
 </div>
