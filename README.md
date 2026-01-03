@@ -1,5 +1,6 @@
 <div align="center">
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff0080,50:7928ca,100:2afadf&height=120&section=header&text=Chinmay%20Shringi&fontSize=38&fontColor=ffffff&animation=fadeIn" alt="Chinmay Shringi banner" />
   
   # < Hello World 👋, I'm Chinmay />
   ### `console.log("Welcome to my digital playground! 🎮")`
@@ -7,23 +8,30 @@
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chinmay-shringi/)
   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChinmayShringi)
   [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://chinmayshringi.web.app/)
+  [![Email](https://img.shields.io/badge/Email-CS7810%40NYU.EDU-0A66C2?style=for-the-badge&logo=gmail&logoColor=white)](mailto:cs7810@nyu.edu)
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=800&lines=Senior+Full+Stack+Developer;AWS+Certified+Cloud+Practitioner;CCNA+Certified;Architecting+Scalable+Solutions;Passionate+Learner+%26+Mentor)
+</div>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=ChinmayShringi&style=for-the-badge&color=ff0080" alt="Profile views" />
+  <img src="https://img.shields.io/badge/Location-New%20York%2C%20NY-7928ca?style=for-the-badge" alt="Location" />
+  <img src="https://img.shields.io/badge/Phone-%2B1%20(201)%20284--0211-2afadf?style=for-the-badge" alt="Phone" />
 </div>
 
 ## 🤖 $ whoami
 ```typescript
 const chinmay = {
-    role: "Senior Full Stack Developer",
-    code: ["JavaScript", "TypeScript", "Java", "Go", "Python"],
+    role: "Research Developer | Full Stack Engineer",
+    code: ["Go", "Python", "TypeScript", "GraphQL", "C++", "Rust", "SQL"],
     expertise: {
         frontend: ["React", "Angular", "Vue", "Next.js"],
         backend: ["Spring Boot", "Node.js", "Express", "NestJS"],
-        cloud: ["AWS", "Docker", "Kubernetes"],
-        database: ["MongoDB", "PostgreSQL", "MySQL", "Redis"],
+        cloud: ["AWS", "Docker", "Kubernetes", "Lambda", "EventBridge"],
+        database: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Elasticsearch"],
     },
-    currentFocus: "Architecting scalable enterprise solutions",
-    architecture: ["Microservices", "Event-Driven", "Serverless"],
+    currentFocus: "Secure distributed systems, AI infra, and visualization",
+    architecture: ["Microservices", "Event-Driven", "Serverless", "Zero-Trust"],
     funFact: "I debug with console.log and pretend I didn't",
     dailyRoutine: {
         coffee: "∞",
@@ -36,6 +44,81 @@ const chinmay = {
 ```
 
 > When I'm not coding, I'm probably thinking about coding... or coffee ☕
+
+## ✨ Resume Flash (2025 Update)
+<details>
+<summary><strong>🎓 Education</strong></summary>
+
+**New York University, M.S. (2024 – 2026)**  
+Coursework: Machine Learning, Deep Learning, Neural Networks, Data Mining, Big Data, Computer Architecture, Operating Systems, Computer Networks,
+Data Structures & Algorithms, Advanced Java Programming, Blockchain, Cryptography.
+</details>
+
+<details>
+<summary><strong>🧠 Skills Matrix</strong></summary>
+
+**Programming:** Go, Python, JavaScript (ES6+), TypeScript, GraphQL, C++, Rust, SQL  
+**Security & Cloud:** firewalls/VPNs, segmentation, OAuth2/OIDC, TLS/SSL, HPKE, zero-knowledge proofs, container security, threat modeling  
+**Frameworks & Tools:** Node.js, Express.js, NestJS, React/Next.js, Angular, Spring Boot, WebRTC, WebSockets, Tailwind CSS, PyTorch, TensorFlow, HuggingFace  
+**DevOps & Data:** Docker, Kubernetes (Helm), AWS (EC2, S3, EKS, ECS, Lambda, EventBridge), Jenkins, Prometheus, Loki, Nginx, PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Firebase  
+**Concepts:** Microservices, Distributed Systems, WebAssembly, Memory Safety, System Design, Agile/Scrum, Technical Writing  
+**Certification:** AWS Certified Cloud Practitioner (CLP)
+</details>
+
+<details>
+<summary><strong>🛰️ Experience Highlights</strong></summary>
+
+**Research Developer, Scrypted Inc. (May 2025 – Present)**
+- Built the first working CRPC consensus protocol implementation with Node.js simulation and Three.js visualization; presented at Cornell Tech (IC3).
+- Migrated Chibi GameFi from GCP to AWS (PostgreSQL, EventBridge/Lambda, ECS, S3) with tighter IAM/network policies; 40% cost savings, 99.99% uptime.
+- Delivered NestJS Twitter/X Game SDK and Nami AI video platform with secure API gateways, token-based access, and audited logging.
+
+**Research Assistant, New York University (Sep 2024 – Present)**
+- Implemented POSIX-compliant system calls with memory-safety checks for the Lind secure-virtualization project, improving reliability by 25%.
+- Modeled signed, role-based policies over branches/tags in gittuf to harden CI/CD against supply-chain threats.
+- Designed a stealth privilege-escalation hardware Trojan in Microwatt POWER core (<0.01% area overhead) for detection research.
+- Course Assistant (AppSec): built containerized Gradescope autograders and secure execution environments.
+
+**Full Stack Developer, Yliway (Jul 2023 – Aug 2024)**
+- Optimized Next.js/Node.js features; improved performance and API response by 60% with structured logging + validation.
+- Built real-time pipelines with Kafka for hybrid off-chain/on-chain systems.
+- Deployed CI/CD via Jenkins on AWS EC2 + Docker; increased deployment frequency by 55%.
+
+**Sr. Full Stack Developer / Tech Lead, Fassix Chatbots (Jun 2022 – Jul 2023)**
+- Led 5-engineer team delivering modular APIs; reduced time-to-market by 40% with auth + rate-limiting patterns.
+- Standardized Git workflows for Golang, improving merge integrity and reducing incidents.
+- Automated Helm/Kubernetes deployments on AWS with GitHub Actions CI/CD.
+
+**Founder / Full Stack Engineer, Webscape (Feb 2019 – Aug 2021)**
+- Built MERN + Swift apps for local businesses; secure multi-tenant solutions.
+- Integrated payment gateways and role-based access controls with audit trails.
+</details>
+
+<details>
+<summary><strong>🚀 Research & Projects</strong></summary>
+
+- **OMNI Benchmarking LLMs in Cybersecurity**: Dockerized cyber range with misconfigured firewall scenarios; enrichment pipelines for structured scoring.
+- **AI-Accelerated Hardware**: AI-driven acceleration framework; Spark pipelines on AWS for simulation analytics.
+- **Microwatt Hardware Trojan & Secure CPU Research**: privilege-escalation trigger in POWER core with Dockerized tests.
+- **AI Driven Database**: ML-powered self-tuning indexing and caching for 1.5× speedup.
+- **Credel (React, Node.js, Adonis.js)**: credit & loan platform with biometric authentication.
+</details>
+
+<details>
+<summary><strong>📚 Publications & Achievements</strong></summary>
+
+- **Publications:**
+  - *An Advanced AI-Driven Database System*, EDULEARN 2025 (preprint on arXiv).
+  - *Zero-Knowledge Proof Bridges for Secure Cross-Chain DeFi*, submitted to Stanford Blockchain Conference 2025.
+  - *Branch-Commit-Validate*, Springer Nature SAM 2025.
+  - *Consensus-Based Small Language Model Swarms*, implemented on SLM-Swarm.
+- **Achievements:** NYU OSIRIS Lab CTF mentoring, CSAW Organizer/Playtester, Code NYC Hackathon winner, Coinbase Developer Platform Hackathon winner.
+</details>
+
+## 🌈 Skill Nebula (Icons)
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=go,py,ts,js,graphql,cpp,rust,react,next,angular,nodejs,nestjs,express,spring,tailwind,aws,docker,kubernetes,postgres,mongodb,redis,elasticsearch,firebase,linux" alt="Skill Icons" />
+</div>
 
 ## 🚀 Mission Control
 - 🔭 Currently orchestrating microservices like a symphony conductor
@@ -94,14 +177,14 @@ const chinmay = {
 
 ## 📊 Battle Statistics
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ChinmayShringi&show_icons=true&theme=radical" alt="GitHub Stats">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ChinmayShringi&theme=radical" alt="GitHub Streak">
+  <img src="https://github-readme-stats.vercel.app/api?username=ChinmayShringi&show_icons=true&theme=radical&rank_icon=github&include_all_commits=true&hide_border=true" alt="GitHub Stats">
+  <img src="https://streak-stats.demolab.com?user=ChinmayShringi&theme=radical&hide_border=true" alt="GitHub Streak">
 
   <!-- Replace the broken activity graph with this one -->
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ChinmayShringi&theme=radical" alt="Activity Graph">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ChinmayShringi&theme=react-dark&hide_border=true&area=true" alt="Activity Graph">
 
   <!-- Optional: Add these additional stat cards -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChinmayShringi&layout=compact&theme=radical" alt="Top Languages">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChinmayShringi&layout=compact&theme=radical&langs_count=8&hide_border=true" alt="Top Languages">
 </div>
 
 ## 🎯 Epic Projects
@@ -190,6 +273,9 @@ _You can try this in your browser console!_
   <a href="mailto:chinmayshringi4@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
+  <a href="mailto:cs7810@nyu.edu" target="_blank">
+    <img src="https://img.shields.io/badge/NYU%20Email-0A66C2?style=for-the-badge&logo=gmail&logoColor=white" alt="NYU Email">
+  </a>
   <a href="https://www.linkedin.com/in/chinmay-shringi/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
@@ -205,5 +291,15 @@ _You can try this in your browser console!_
 
 ## 🎵 Currently Vibing To
 <div align="center">
-[![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/track/0pqnGHJpmpxLKifKRmU6WP)
+  <a href="https://open.spotify.com/track/0pqnGHJpmpxLKifKRmU6WP" target="_blank">
+    <img src="https://img.shields.io/badge/Spotify-Now%20Playing-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify Now Playing" />
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=ChinmayShringi&theme=radical&no-frame=true&row=1&column=7" alt="Trophies" />
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2afadf,50:7928ca,100:ff0080&height=100&section=footer&animation=twinkling" alt="Footer" />
 </div>
