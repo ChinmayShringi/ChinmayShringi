@@ -177,11 +177,11 @@ Data Structures & Algorithms, Advanced Java Programming, Blockchain, Cryptograph
 
 ## 📊 Battle Statistics
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ChinmayShringi&show_icons=true&theme=radical" alt="GitHub Stats">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ChinmayShringi&theme=radical" alt="GitHub Streak">
+  <img src="https://github-readme-stats.vercel.app/api?username=ChinmayShringi&show_icons=true&theme=radical&rank_icon=github" alt="GitHub Stats">
+  <img src="https://streak-stats.demolab.com?user=ChinmayShringi&theme=radical" alt="GitHub Streak">
 
   <!-- Replace the broken activity graph with this one -->
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ChinmayShringi&theme=radical" alt="Activity Graph">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ChinmayShringi&theme=react-dark&hide_border=true&area=true" alt="Activity Graph">
 
   <!-- Optional: Add these additional stat cards -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChinmayShringi&layout=compact&theme=radical" alt="Top Languages">
@@ -291,7 +291,9 @@ _You can try this in your browser console!_
 
 ## 🎵 Currently Vibing To
 <div align="center">
-[![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/track/0pqnGHJpmpxLKifKRmU6WP)
+  <a href="https://open.spotify.com/track/0pqnGHJpmpxLKifKRmU6WP" target="_blank">
+    <img src="https://img.shields.io/badge/Spotify-Now%20Playing-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify Now Playing" />
+  </a>
 </div>
 
 <div align="center">
