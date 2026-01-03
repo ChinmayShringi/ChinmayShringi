@@ -177,14 +177,14 @@ Data Structures & Algorithms, Advanced Java Programming, Blockchain, Cryptograph
 
 ## 📊 Battle Statistics
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ChinmayShringi&show_icons=true&theme=radical&rank_icon=github" alt="GitHub Stats">
-  <img src="https://streak-stats.demolab.com?user=ChinmayShringi&theme=radical" alt="GitHub Streak">
+  <img src="https://github-readme-stats.vercel.app/api?username=ChinmayShringi&show_icons=true&theme=radical&rank_icon=github&include_all_commits=true&hide_border=true" alt="GitHub Stats">
+  <img src="https://streak-stats.demolab.com?user=ChinmayShringi&theme=radical&hide_border=true" alt="GitHub Streak">
 
   <!-- Replace the broken activity graph with this one -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ChinmayShringi&theme=react-dark&hide_border=true&area=true" alt="Activity Graph">
 
   <!-- Optional: Add these additional stat cards -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChinmayShringi&layout=compact&theme=radical" alt="Top Languages">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChinmayShringi&layout=compact&theme=radical&langs_count=8&hide_border=true" alt="Top Languages">
 </div>
 
 ## 🎯 Epic Projects
