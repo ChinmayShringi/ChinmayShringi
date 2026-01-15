@@ -40,7 +40,7 @@
 ## 🤖 $ whoami
 
 <!-- Animated About Me Section with Coding GIF -->
-<img align="right" alt="Coding" width="400" src="./assets/coding.gif"/>
+<img align="center" alt="Coding" width="100%" src="./assets/coding.gif"/>
 
 ```typescript
 const chinmay = {
@@ -394,16 +394,6 @@ const projects = {
 ```
 <!--END_SECTION:waka-->
 
-## 🎵 Currently Vibing To
-
-<div align="center">
-
-<!-- Spotify Now Playing - Using tthn0/Spotify-Readme -->
-<!-- Setup: https://github.com/tthn0/Spotify-Readme -->
-[![Spotify](https://spotify-readme-chinmayshringi.vercel.app/api?theme=dark&spin=true&scan=true)](https://spotify-readme-chinmayshringi.vercel.app/api?open=true)
-
-</div>
-
 ## 💭 Dev Quote of the Day
 
 <div align="center">
@@ -459,7 +449,7 @@ const contact = {
 </div>
 
 ## 🤝 Let's Build Something Amazing!
-<img align="center" alt="Coding" width="200" src="./assets/coder.gif"/>
+<img align="center" alt="Coding" width="100%" src="./assets/coder.gif"/>
 
 <div align="center">
 
@@ -481,12 +471,12 @@ const contact = {
 <div align="center">
 
 <!-- The Classic Coding Guy GIF! -->
-<img src="./assets/bottom-header.svg" />
 
 <br/>
 
-<img src="./assets/connecting-people.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
+<img src="./assets/connecting-people.gif" width="100"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
 
 **⭐ If you like my work, consider giving my repos a star! ⭐**
 
 </div>
+<img src="./assets/bottom-header.svg" />
