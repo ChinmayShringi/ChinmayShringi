@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Header with Capsule Render -->
-<img src="https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&customColorList=0,2,2,5,30&text=CHINMAY%20SHRINGI&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=55&desc=🚀%20Senior%20Full%20Stack%20Developer%20|%20Security%20Researcher%20|%20NYU%20|%20AWS%20Certified&descSize=18&descAlignY=75&stroke=ffffff&strokeWidth=2"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&customColorList=0,2,2,5,30&text=CHINMAY%20SHRINGI&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=55&desc=Senior%20Full%20Stack%20Developer%20|%20Security%20Researcher%20|%20NYU%20|%20AWS%20Certified&descSize=18&descAlignY=75&stroke=ffffff&strokeWidth=2"/>
 
 <!-- Animated Wave Hello -->
 <img src="./assets/wave-hello.gif" width="35px" alt="wave"/>
