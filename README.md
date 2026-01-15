@@ -40,7 +40,9 @@
 ## 🤖 $ whoami
 
 <!-- Animated About Me Section with Coding GIF -->
-<img align="center" alt="Coding" width="100%" src="./assets/coding.gif"/>
+<div align="center">
+<img align="center" alt="Coding" width="50%" src="./assets/coding.gif"/>
+</div>
 
 ```typescript
 const chinmay = {
