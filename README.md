@@ -449,9 +449,9 @@ const contact = {
 </div>
 
 ## 🤝 Let's Build Something Amazing!
-<img align="center" alt="Coding" width="100%" src="./assets/coder.gif"/>
 
 <div align="center">
+<img alt="Coding" width="200" src="./assets/coder.gif"/>
 
 <a href="mailto:cs7810@nyu.edu">
   <img src="https://img.shields.io/badge/📧_Hire_Me-EA4335?style=for-the-badge"/>
