@@ -20,7 +20,12 @@
 <a href="mailto:cs7810@nyu.edu">
   <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
-
+  <a href="https://medium.com/@chinmayshringi4">
+    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/>
+  </a>
+  <a href="https://medium.com/feed/@chinmayshringi4">
+    <img src="https://img.shields.io/badge/RSS-FFA500?style=for-the-badge&logo=rss&logoColor=white" alt="RSS"/>
+  </a>
 <br/><br/>
 
 <!-- Animated Typing SVG -->
@@ -467,6 +472,12 @@ const contact = {
 <a href="https://github.com/ChinmayShringi?tab=repositories">
   <img src="https://img.shields.io/badge/📂_Projects-181717?style=for-the-badge"/>
 </a>
+  <a href="https://medium.com/@chinmayshringi4">
+    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/>
+  </a>
+  <a href="https://medium.com/feed/@chinmayshringi4">
+    <img src="https://img.shields.io/badge/RSS-FFA500?style=for-the-badge&logo=rss&logoColor=white" alt="RSS"/>
+  </a>
 
 </div>
 
