@@ -25,7 +25,7 @@
 
 <!-- Animated Typing SVG -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6E5494&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%F0%9F%94%90+Security+Researcher+%40+NYU+OSIRIS+Lab;%E2%98%81%EF%B8%8F+AWS+Certified+Cloud+Practitioner;%F0%9F%8E%AF+IC3+Researcher+%40+Cornell+Tech;" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6E5494&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%F0%9F%94%90+Researcher+%40+NYU+OSIRIS+Lab;%E2%98%81%EF%B8%8F+AWS+Certified+Cloud+Practitioner;%F0%9F%8E%AF+IC3+Researcher+%40+Cornell+Tech;" alt="Typing SVG" />
 </a>
 
 <!-- Profile Views Counter -->
