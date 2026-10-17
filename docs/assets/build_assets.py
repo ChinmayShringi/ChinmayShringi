@@ -12,6 +12,8 @@ disabled under prefers-reduced-motion.
 
 from pathlib import Path
 
+from atlas_plates import atlas_assets
+
 OUT = Path(__file__).resolve().parent
 
 THEMES = {
@@ -296,6 +298,12 @@ def main():
         for theme, t in THEMES.items():
             path = OUT / f"{name}-{theme}.svg"
             path.write_text(fn(t), encoding="utf-8")
+            print(f"wrote {path.relative_to(OUT.parent.parent)}")
+    shared = (style, dot_grid, frame, svg)
+    for theme, t in THEMES.items():
+        for name, artwork in atlas_assets(t, shared):
+            path = OUT / f"{name}-{theme}.svg"
+            path.write_text(artwork, encoding="utf-8")
             print(f"wrote {path.relative_to(OUT.parent.parent)}")
 
 

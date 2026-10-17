@@ -24,13 +24,19 @@
 
 I'm **Chinmay Shringi**, a full-stack engineer and researcher in New York. I build across **AI agents**, **secure systems** and **developer tools**: runtimes that route work to the right hardware, agent workflows that can be reviewed and rolled back, and small tools that remove friction from everyday engineering.
 
-## Domains
+**[Explore Systems Atlas](https://chinmay-systems-atlas.vercel.app/)**, an interactive map of projects, research and shared ideas. Search the index, inspect an architecture, or explore the illustrative GRAFT routing lab.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/ChinmayShringi/ChinmayShringi@41a6393b00889e07c578051c218d964e9da9247a/docs/assets/domains-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/ChinmayShringi/ChinmayShringi@41a6393b00889e07c578051c218d964e9da9247a/docs/assets/domains-light.svg">
-  <img src="https://cdn.jsdelivr.net/gh/ChinmayShringi/ChinmayShringi@41a6393b00889e07c578051c218d964e9da9247a/docs/assets/domains-light.svg" width="100%" alt="Three domains: 01 Systems, 02 Intelligence, 03 Security.">
-</picture>
+<a href="https://chinmay-systems-atlas.vercel.app/">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://chinmay-systems-atlas.vercel.app/readme/atlas-launch-mobile-dark.svg">
+    <source media="(max-width: 600px)" srcset="https://chinmay-systems-atlas.vercel.app/readme/atlas-launch-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://chinmay-systems-atlas.vercel.app/readme/atlas-launch-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://chinmay-systems-atlas.vercel.app/readme/atlas-launch-light.svg">
+    <img src="https://chinmay-systems-atlas.vercel.app/readme/atlas-launch-light.svg" width="100%" alt="Explore Systems Atlas, an interactive map of nine projects and papers across systems, intelligence and security. Connections are conceptual, not live activity.">
+  </picture>
+</a>
+
+## Domains
 
 - **01 / Systems.** Distributed inference runtimes, WebAssembly sandboxing in Rust and C, and microservice back ends.
 - **02 / Intelligence.** LLM agent orchestration, retrieval-augmented generation over vector and graph stores, and small-model collaboration.
@@ -43,8 +49,28 @@ I'm **Chinmay Shringi**, a full-stack engineer and researcher in New York. I bui
 **[SourceSnap](https://github.com/ChinmayShringi/sourcesnap)** &nbsp;<sub>`BROWSER EXTENSION` `TYPESCRIPT`</sub><br>
 Alt+Click any element in a running app to open its source file in your editor. Works with React, Vue, Svelte, SolidJS and Preact, with no bundler plugin required.
 
+<a href="https://chinmay-systems-atlas.vercel.app/#project/sourcesnap">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://chinmay-systems-atlas.vercel.app/readme/sourcesnap-trace-mobile-dark.svg">
+    <source media="(max-width: 600px)" srcset="https://chinmay-systems-atlas.vercel.app/readme/sourcesnap-trace-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://chinmay-systems-atlas.vercel.app/readme/sourcesnap-trace-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://chinmay-systems-atlas.vercel.app/readme/sourcesnap-trace-light.svg">
+    <img src="https://chinmay-systems-atlas.vercel.app/readme/sourcesnap-trace-light.svg" width="100%" alt="Inspect SourceSnap in the Atlas. Illustrative architecture: Alt+Click an element, detect framework metadata, locate the source file and line, then open the chosen editor.">
+  </picture>
+</a>
+
 **[Shoemaker Elves](https://github.com/ChinmayShringi/shoemaker-elves)** &nbsp;<sub>`AGENT ORCHESTRATOR` `PYTHON`</sub><br>
 Breaks large projects into atomic tasks. An LLM plans a batch, a coding agent executes the tasks in sequence, and the LLM reviews results before planning the next batch.
+
+<a href="https://chinmay-systems-atlas.vercel.app/#project/shoemaker-elves">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://chinmay-systems-atlas.vercel.app/readme/shoemaker-trace-mobile-dark.svg">
+    <source media="(max-width: 600px)" srcset="https://chinmay-systems-atlas.vercel.app/readme/shoemaker-trace-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://chinmay-systems-atlas.vercel.app/readme/shoemaker-trace-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://chinmay-systems-atlas.vercel.app/readme/shoemaker-trace-light.svg">
+    <img src="https://chinmay-systems-atlas.vercel.app/readme/shoemaker-trace-light.svg" width="100%" alt="Inspect Shoemaker Elves in the Atlas. Illustrative workflow: an LLM plans a batch, a coding agent executes tasks sequentially, then the LLM reviews results and plans the next batch.">
+  </picture>
+</a>
 
 **[SLM Swarm](https://github.com/ChinmayShringi/slm-swarm)** &nbsp;<sub>`RESEARCH PLATFORM` `DOCKER` `FASTAPI` `OLLAMA`</sub><br>
 A reproducible setup for comparing swarms of small language models against a single large model on summarization, using embedding-based consensus and standard metrics.

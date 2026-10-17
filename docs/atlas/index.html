@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en" data-theme="system" data-motion="auto">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Systems Atlas / Chinmay Shringi</title>
+  <meta name="description" content="An interactive map of Chinmay Shringi's projects and research across AI agents, secure systems and developer tools.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#F6F0E5" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#12100E" media="(prefers-color-scheme: dark)">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/atlas.css">
+  <script src="src/boot.js"></script>
+  <script type="module" src="src/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#atlas">Skip to the atlas</a>
+
+  <header class="masthead">
+    <a class="brand" href="#top">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-name">Chinmay Shringi</span>
+      <span class="brand-sub">Systems Atlas</span>
+    </a>
+    <nav class="sections-nav" aria-label="Sections">
+      <a href="#atlas">Atlas</a>
+      <a href="#lab">Routing lab</a>
+      <a href="#research">Research</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="prefs js-only">
+      <fieldset class="segmented">
+        <legend>Theme</legend>
+        <input type="radio" name="theme" id="theme-system" value="system" checked><label for="theme-system">Auto</label>
+        <input type="radio" name="theme" id="theme-light" value="light"><label for="theme-light">Light</label>
+        <input type="radio" name="theme" id="theme-dark" value="dark"><label for="theme-dark">Dark</label>
+      </fieldset>
+      <fieldset class="segmented">
+        <legend>Motion</legend>
+        <input type="radio" name="motion" id="motion-auto" value="auto" checked><label for="motion-auto">Auto</label>
+        <input type="radio" name="motion" id="motion-off" value="off"><label for="motion-off">Off</label>
+      </fieldset>
+      <button id="palette-open" class="palette-trigger js-only" type="button" aria-haspopup="dialog" aria-keyshortcuts="Control+K Meta+K">
+        Commands <kbd>Ctrl K</kbd>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="title-block" aria-labelledby="page-title">
+      <p class="field-label title-kicker"><span class="kicker-mark" aria-hidden="true"></span>Sheet 02 / Field atlas / New York</p>
+      <h1 id="page-title" class="page-title"><span>Systems</span> <span class="title-accent">Atlas</span></h1>
+      <p class="lede">Explore projects and research across AI agents, secure systems, and developer tools. Choose an entry to inspect its architecture and sources.</p>
+      <dl class="tally">
+        <div><dt>Projects</dt><dd>06</dd></div>
+        <div><dt>Papers</dt><dd>03</dd></div>
+        <div><dt>Shared ideas</dt><dd>08</dd></div>
+      </dl>
+    </section>
+
+    <section id="atlas" class="atlas" aria-labelledby="atlas-heading">
+      <h2 id="atlas-heading" class="visually-hidden" tabindex="-1">Atlas</h2>
+
+      <div class="atlas-index">
+        <p class="field-label column-label">Index</p>
+        <div id="index-controls" class="index-controls"></div>
+        <p id="index-status" class="index-status" role="status" aria-live="polite"></p>
+        <ol id="index-list" class="index-list">
+          <li class="entry-row"><a class="entry" href="https://doi.org/10.1145/3786335.3813216"><span class="entry-index">01</span><span class="entry-text"><span class="entry-title">GRAFT</span><span class="entry-kind">Paper / ACM CAIS 2026</span></span></a></li>
+          <li class="entry-row"><a class="entry" href="https://github.com/ChinmayShringi/slm-swarm"><span class="entry-index">02</span><span class="entry-text"><span class="entry-title">SLM Swarm</span><span class="entry-kind">Project / Research platform</span></span></a></li>
+          <li class="entry-row"><a class="entry" href="https://github.com/ChinmayShringi/shoemaker-elves"><span class="entry-index">03</span><span class="entry-text"><span class="entry-title">Shoemaker Elves</span><span class="entry-kind">Project / Agent orchestrator</span></span></a></li>
+          <li class="entry-row"><a class="entry" href="https://github.com/ChinmayShringi/sourcesnap"><span class="entry-index">04</span><span class="entry-text"><span class="entry-title">SourceSnap</span><span class="entry-kind">Project / Browser extension</span></span></a></li>
+          <li class="entry-row"><a class="entry" href="https://github.com/ChinmayShringi/persona-ai"><span class="entry-index">05</span><span class="entry-text"><span class="entry-title">Persona AI</span><span class="entry-kind">Project / Self-hosted assistant</span></span></a></li>
+          <li class="entry-row"><a class="entry" href="https://github.com/ChinmayShringi/rag-vector-graph-hybrid-neo4js"><span class="entry-index">06</span><span class="entry-text"><span class="entry-title">Hybrid RAG</span><span class="entry-kind">Project / PDF question answering</span></span></a></li>
+          <li class="entry-row"><a class="entry" href="https://library.iated.org/view/TEDESCHI2025ANA"><span class="entry-index">07</span><span class="entry-text"><span class="entry-title">AI-Driven Database</span><span class="entry-kind">Paper / EDULEARN25</span></span></a></li>
+          <li class="entry-row"><a class="entry" href="https://doi.org/10.1007/978-3-032-22208-4_37"><span class="entry-index">08</span><span class="entry-text"><span class="entry-title">Branch-Commit-Validate</span><span class="entry-kind">Paper / Springer CCIS 2937</span></span></a></li>
+          <li class="entry-row"><a class="entry" href="https://www.benchmark-spotlightsecurity.com/"><span class="entry-index">09</span><span class="entry-text"><span class="entry-title">Spotlight Benchmark</span><span class="entry-kind">Project / AI security evaluation</span></span></a></li>
+        </ol>
+      </div>
+
+      <figure class="atlas-plate-wrap">
+        <div class="plate-head">
+          <p class="field-label">Plate I / Constellation</p>
+          <ul class="legend" aria-label="Map legend">
+            <li><span class="legend-mark legend-project" aria-hidden="true"></span>Project</li>
+            <li><span class="legend-mark legend-paper" aria-hidden="true"></span>Paper</li>
+            <li><span class="legend-mark legend-link" aria-hidden="true"></span>Shared idea</li>
+          </ul>
+        </div>
+        <div id="atlas-plate" class="atlas-plate">
+          <noscript><p class="noscript-note">The interactive map needs JavaScript. Every entry is listed in the index with its source link.</p></noscript>
+        </div>
+        <figcaption class="plate-caption">Positions are editorial, not measured. Lines join entries that share an idea; select one to trace its connections.</figcaption>
+      </figure>
+
+      <aside id="inspector" class="inspector" aria-label="Entry inspector" aria-live="polite">
+        <noscript><p class="noscript-note">Turn on JavaScript to inspect entries here. The research section below lists every paper with its publisher link.</p></noscript>
+      </aside>
+    </section>
+
+    <section id="lab" class="lab" aria-labelledby="lab-heading">
+      <div class="section-head">
+        <p class="field-label">Plate II / Illustrative</p>
+        <h2 id="lab-heading" class="section-title" tabindex="-1">Routing lab</h2>
+      </div>
+      <div class="lab-intro">
+        <p class="lab-lede">GRAFT routes agent tasks by capability across heterogeneous devices. This lab is a deliberately small, deterministic sketch of that idea. Change what the task needs, or close the remote gate, and watch the route and every reason update.</p>
+        <ol class="rules">
+          <li><span class="rule-num" aria-hidden="true">1</span>Keep only devices that offer the capability the task needs.</li>
+          <li><span class="rule-num" aria-hidden="true">2</span>Drop remote devices unless remote execution is allowed.</li>
+          <li><span class="rule-num" aria-hidden="true">3</span>Prefer the first eligible local device, then the first eligible remote one. Otherwise hold the task.</li>
+        </ol>
+        <p class="disclaimer"><strong>Illustrative only.</strong> Sample devices and fixed rules. No timing, cost or benchmark data, and nothing runs on a real device or server.</p>
+      </div>
+      <div id="lab-root" class="lab-root">
+        <noscript><p class="noscript-note">The interactive lab needs JavaScript. The three rules above describe exactly what it does.</p></noscript>
+      </div>
+    </section>
+
+    <section id="research" class="research" aria-labelledby="research-heading">
+      <div class="section-head">
+        <p class="field-label">Plate III / Publications</p>
+        <h2 id="research-heading" class="section-title" tabindex="-1">Research</h2>
+      </div>
+      <ol class="papers">
+        <li class="paper">
+          <span class="paper-numeral" aria-hidden="true">R1</span>
+          <div class="paper-body">
+            <p class="field-label">ACM CAIS 2026</p>
+            <h3 class="paper-title">GRAFT: gRPC-Routed Agent Framework for Tasking in Edge and Personal Devices</h3>
+            <p class="paper-authors">Chinmay Shringi, Alon Hillel-Tuch, Sariya Rizwan</p>
+            <p class="paper-summary">A runtime for agent tasks on edge and personal devices. It routes work by capability across CPU, GPU and NPU targets over sessioned gRPC and keeps execution inside safety bounds.</p>
+            <ul class="source-links">
+              <li><a class="out-link" href="https://doi.org/10.1145/3786335.3813216">DOI</a></li>
+              <li><a class="out-link" href="https://openreview.net/pdf?id=AHUfHheG4V">PDF on OpenReview</a></li>
+              <li><a class="in-link" href="#project/graft">Open in atlas</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="paper">
+          <span class="paper-numeral" aria-hidden="true">R2</span>
+          <div class="paper-body">
+            <p class="field-label">Springer CCIS 2937 / Proceedings of CSCE 2025 (2026)</p>
+            <h3 class="paper-title">Branch-Commit-Validate: A Git-Inspired Workflow for Autonomous Red-Team Agents</h3>
+            <p class="paper-summary">Proposes a branch, commit and validate workflow so red-team agent actions can be reviewed, compared and rolled back like code.</p>
+            <ul class="source-links">
+              <li><a class="out-link" href="https://doi.org/10.1007/978-3-032-22208-4_37">DOI</a></li>
+              <li><a class="in-link" href="#project/branch-commit-validate">Open in atlas</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="paper">
+          <span class="paper-numeral" aria-hidden="true">R3</span>
+          <div class="paper-body">
+            <p class="field-label">EDULEARN25 (2025)</p>
+            <h3 class="paper-title">An Advanced AI-Driven Database System</h3>
+            <p class="paper-summary">Conference paper in the EDULEARN25 proceedings.</p>
+            <ul class="source-links">
+              <li><a class="out-link" href="https://library.iated.org/view/TEDESCHI2025ANA">IATED library</a></li>
+              <li><a class="out-link" href="https://doi.org/10.21125/edulearn.2025.1294">DOI</a></li>
+              <li><a class="in-link" href="#project/ai-database">Open in atlas</a></li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section id="contact" class="contact" aria-labelledby="contact-heading">
+      <div class="section-head">
+        <p class="field-label">Plate IV / Correspondence</p>
+        <h2 id="contact-heading" class="section-title" tabindex="-1">Open a channel</h2>
+      </div>
+      <p class="contact-lede">Working on agents, secure systems or developer tooling? I'm glad to compare notes, review an idea or collaborate.</p>
+      <ul class="contact-list">
+        <li><span class="field-label">Email</span><a href="mailto:cs7810@nyu.edu">cs7810@nyu.edu</a></li>
+        <li><span class="field-label">Portfolio</span><a href="https://chinmayshringi.web.app/">chinmayshringi.web.app</a></li>
+        <li><span class="field-label">LinkedIn</span><a href="https://www.linkedin.com/in/chinmay-shringi/">in/chinmay-shringi</a></li>
+        <li><span class="field-label">GitHub</span><a href="https://github.com/ChinmayShringi">ChinmayShringi</a></li>
+        <li><span class="field-label">Writing</span><a href="https://medium.com/@chinmayshringi4">Medium</a></li>
+        <li><span class="field-label">ORCID</span><a href="https://orcid.org/0009-0008-0325-7668">0009-0008-0325-7668</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="colophon">
+    <p>Static HTML, CSS and JavaScript. No trackers, cookies, analytics or third-party requests.</p>
+    <p class="field-label">End of sheet 02</p>
+  </footer>
+
+  <dialog id="palette" class="palette" aria-label="Command palette">
+    <div class="palette-box">
+      <label for="palette-input" class="visually-hidden">Search commands and entries</label>
+      <input id="palette-input" class="palette-input" type="text" role="combobox" aria-expanded="true" aria-controls="palette-list" aria-autocomplete="list" autocomplete="off" spellcheck="false" placeholder="Jump to an entry, section or setting">
+      <ul id="palette-list" class="palette-list" role="listbox" aria-label="Commands"></ul>
+      <p class="palette-hint">Up and Down to move / Enter to run / Esc to close</p>
+    </div>
+  </dialog>
+</body>
+</html>
