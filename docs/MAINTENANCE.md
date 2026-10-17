@@ -14,10 +14,14 @@ python3 docs/assets/build_assets.py
 | `domains-dark.svg`, `domains-light.svg` | Previous three-domain banner, retained as legacy artwork |
 | `footer-dark.svg`, `footer-light.svg` | Closing graphic |
 | `atlas-launch-{light,dark}.svg`, `atlas-launch-mobile-{light,dark}.svg` | Linked Atlas launch plate, with mobile and desktop layouts |
-| `sourcesnap-trace-{light,dark}.svg`, `sourcesnap-trace-mobile-{light,dark}.svg` | SourceSnap architecture linked to its Atlas entry |
-| `shoemaker-trace-{light,dark}.svg`, `shoemaker-trace-mobile-{light,dark}.svg` | Sequential planning, execution and review linked to Shoemaker Elves |
+| `sourcesnap-trace-{light,dark}.svg`, `sourcesnap-trace-mobile-{light,dark}.svg` | SourceSnap architecture linked to its repository, with a separate Atlas inspection link |
+| `shoemaker-trace-{light,dark}.svg`, `shoemaker-trace-mobile-{light,dark}.svg` | Sequential planning, execution and review linked to the repository, with a separate Atlas inspection link |
 
 The original header and footer use commit-pinned [jsDelivr GitHub URLs](https://www.jsdelivr.com/?docs=gh), which GitHub serves through its Camo image proxy. This avoids direct raw.githubusercontent.com requests that failed during live browser verification. The editable source stays in this repository. The new Atlas plates use `/readme/` URLs on the deployed companion site; the native Domains bullets replace the previous domains banner.
+
+Each new plate uses two linked `<picture>` elements, one per theme. Their outer link URLs end in GitHub's [theme context fragments](https://github.blog/changelog/2021-11-24-specify-theme-context-for-images-in-markdown/), `#gh-dark-mode-only` or `#gh-light-mode-only`, so GitHub hides the inactive link and its image. Inside each picture, a width-only `(max-width: 600px)` source chooses the mobile layout and the fallback image provides the desktop layout. Keep theme fragments on the outer links: GitHub's current theme visibility CSS selects link `href` suffixes. Putting them only on the image does not hide an image that is already inside a custom link.
+
+Do not combine width and `prefers-color-scheme` in the new plate source queries. GitHub's `themed-picture` script rewrites theme sources to always match or never match for pinned themes, discarding a compound width condition. The original theme-only header and footer sources remain valid. Keep separate native Atlas inspection links for the project plates so theme fragments do not alter the app's `#project/...` routes. Verify desktop and mobile image selection in the live GitHub page after publishing; the Markdown API preserves source queries without executing that script.
 
 After changing original artwork, regenerate it, publish the asset commit, then update the six original README image/source URLs to that commit SHA. Keep the full commit SHA in each URL so cached images are immutable. After changing Atlas plates, rebuild and deploy the site before publishing their README references. Add the new asset commit SHA as a `?v=<sha>` query to the changed plate URLs so GitHub requests fresh Camo images. Verify both themes and mobile variants through GitHub Camo.
 

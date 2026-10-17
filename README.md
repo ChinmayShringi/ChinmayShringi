@@ -26,12 +26,15 @@ I'm **Chinmay Shringi**, a full-stack engineer and researcher in New York. I bui
 
 **[Explore Systems Atlas](https://chinmay-systems-atlas.vercel.app/)**, an interactive map of projects, research and shared ideas. Search the index, inspect an architecture, or explore the illustrative GRAFT routing lab.
 
-<a href="https://chinmay-systems-atlas.vercel.app/">
+<a href="https://chinmay-systems-atlas.vercel.app/#gh-dark-mode-only">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://chinmay-systems-atlas.vercel.app/readme/atlas-launch-mobile-dark.svg">
+    <source media="(max-width: 600px)" srcset="https://chinmay-systems-atlas.vercel.app/readme/atlas-launch-mobile-dark.svg">
+    <img src="https://chinmay-systems-atlas.vercel.app/readme/atlas-launch-dark.svg" width="100%" alt="Explore Systems Atlas, an interactive map of nine projects and papers across systems, intelligence and security. Connections are conceptual, not live activity.">
+  </picture>
+</a>
+<a href="https://chinmay-systems-atlas.vercel.app/#gh-light-mode-only">
+  <picture>
     <source media="(max-width: 600px)" srcset="https://chinmay-systems-atlas.vercel.app/readme/atlas-launch-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="https://chinmay-systems-atlas.vercel.app/readme/atlas-launch-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://chinmay-systems-atlas.vercel.app/readme/atlas-launch-light.svg">
     <img src="https://chinmay-systems-atlas.vercel.app/readme/atlas-launch-light.svg" width="100%" alt="Explore Systems Atlas, an interactive map of nine projects and papers across systems, intelligence and security. Connections are conceptual, not live activity.">
   </picture>
 </a>
@@ -49,26 +52,36 @@ I'm **Chinmay Shringi**, a full-stack engineer and researcher in New York. I bui
 **[SourceSnap](https://github.com/ChinmayShringi/sourcesnap)** &nbsp;<sub>`BROWSER EXTENSION` `TYPESCRIPT`</sub><br>
 Alt+Click any element in a running app to open its source file in your editor. Works with React, Vue, Svelte, SolidJS and Preact, with no bundler plugin required.
 
-<a href="https://chinmay-systems-atlas.vercel.app/#project/sourcesnap">
+[Inspect SourceSnap in the Atlas](https://chinmay-systems-atlas.vercel.app/#project/sourcesnap).
+
+<a href="https://github.com/ChinmayShringi/sourcesnap#gh-dark-mode-only">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://chinmay-systems-atlas.vercel.app/readme/sourcesnap-trace-mobile-dark.svg">
+    <source media="(max-width: 600px)" srcset="https://chinmay-systems-atlas.vercel.app/readme/sourcesnap-trace-mobile-dark.svg">
+    <img src="https://chinmay-systems-atlas.vercel.app/readme/sourcesnap-trace-dark.svg" width="100%" alt="SourceSnap illustrative architecture: Alt+Click an element, detect framework metadata, locate the source file and line, then open the chosen editor. Open the SourceSnap repository.">
+  </picture>
+</a>
+<a href="https://github.com/ChinmayShringi/sourcesnap#gh-light-mode-only">
+  <picture>
     <source media="(max-width: 600px)" srcset="https://chinmay-systems-atlas.vercel.app/readme/sourcesnap-trace-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="https://chinmay-systems-atlas.vercel.app/readme/sourcesnap-trace-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://chinmay-systems-atlas.vercel.app/readme/sourcesnap-trace-light.svg">
-    <img src="https://chinmay-systems-atlas.vercel.app/readme/sourcesnap-trace-light.svg" width="100%" alt="Inspect SourceSnap in the Atlas. Illustrative architecture: Alt+Click an element, detect framework metadata, locate the source file and line, then open the chosen editor.">
+    <img src="https://chinmay-systems-atlas.vercel.app/readme/sourcesnap-trace-light.svg" width="100%" alt="SourceSnap illustrative architecture: Alt+Click an element, detect framework metadata, locate the source file and line, then open the chosen editor. Open the SourceSnap repository.">
   </picture>
 </a>
 
 **[Shoemaker Elves](https://github.com/ChinmayShringi/shoemaker-elves)** &nbsp;<sub>`AGENT ORCHESTRATOR` `PYTHON`</sub><br>
 Breaks large projects into atomic tasks. An LLM plans a batch, a coding agent executes the tasks in sequence, and the LLM reviews results before planning the next batch.
 
-<a href="https://chinmay-systems-atlas.vercel.app/#project/shoemaker-elves">
+[Inspect Shoemaker Elves in the Atlas](https://chinmay-systems-atlas.vercel.app/#project/shoemaker-elves).
+
+<a href="https://github.com/ChinmayShringi/shoemaker-elves#gh-dark-mode-only">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://chinmay-systems-atlas.vercel.app/readme/shoemaker-trace-mobile-dark.svg">
+    <source media="(max-width: 600px)" srcset="https://chinmay-systems-atlas.vercel.app/readme/shoemaker-trace-mobile-dark.svg">
+    <img src="https://chinmay-systems-atlas.vercel.app/readme/shoemaker-trace-dark.svg" width="100%" alt="Shoemaker Elves illustrative workflow: an LLM plans a batch, a coding agent executes tasks sequentially, then the LLM reviews results and plans the next batch. Open the Shoemaker Elves repository.">
+  </picture>
+</a>
+<a href="https://github.com/ChinmayShringi/shoemaker-elves#gh-light-mode-only">
+  <picture>
     <source media="(max-width: 600px)" srcset="https://chinmay-systems-atlas.vercel.app/readme/shoemaker-trace-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="https://chinmay-systems-atlas.vercel.app/readme/shoemaker-trace-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://chinmay-systems-atlas.vercel.app/readme/shoemaker-trace-light.svg">
-    <img src="https://chinmay-systems-atlas.vercel.app/readme/shoemaker-trace-light.svg" width="100%" alt="Inspect Shoemaker Elves in the Atlas. Illustrative workflow: an LLM plans a batch, a coding agent executes tasks sequentially, then the LLM reviews results and plans the next batch.">
+    <img src="https://chinmay-systems-atlas.vercel.app/readme/shoemaker-trace-light.svg" width="100%" alt="Shoemaker Elves illustrative workflow: an LLM plans a batch, a coding agent executes tasks sequentially, then the LLM reviews results and plans the next batch. Open the Shoemaker Elves repository.">
   </picture>
 </a>
 
