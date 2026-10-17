@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <sub><a href="#domains">Domains</a> &nbsp;·&nbsp; <a href="#selected-work">Selected work</a> &nbsp;·&nbsp; <a href="#research">Research</a> &nbsp;·&nbsp; <a href="#experience">Experience</a> &nbsp;·&nbsp; <a href="#toolkit">Toolkit</a> &nbsp;·&nbsp; <a href="#contact">Contact</a></sub>
+  <sub><a href="#user-content-domains">Domains</a> &nbsp;·&nbsp; <a href="#user-content-selected-work">Selected work</a> &nbsp;·&nbsp; <a href="#user-content-research">Research</a> &nbsp;·&nbsp; <a href="#user-content-experience">Experience</a> &nbsp;·&nbsp; <a href="#user-content-toolkit">Toolkit</a> &nbsp;·&nbsp; <a href="#user-content-contact">Contact</a></sub>
 </p>
 
 <br>
