@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-labelledby="title desc">
+  <title id="title">Three domains: Systems, Intelligence, Security</title>
+  <desc id="desc">Three numbered cards: 01 Systems, distributed runtimes, isolation and infrastructure; 02 Intelligence, agents, orchestration, retrieval and evaluation; 03 Security, red-team workflows and defensive AI benchmarks.</desc>
+  <style>
+    .sans { font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; letter-spacing: 2px; }
+    .text { fill: #16120F; }
+    .muted { fill: #675E54; }
+    .accent { fill: #E0400C; }
+    .flow { fill: none; stroke: #E0400C; stroke-width: 2.5; stroke-dasharray: 6 14; stroke-linecap: round; animation: flow 1.6s linear infinite; }
+    .pulse { fill: none; stroke: #E0400C; stroke-width: 1.5; opacity: 0.35; transform-box: fill-box; transform-origin: center; animation: pulse 2.8s ease-out infinite; }
+    .blink { animation: blink 2.4s steps(1) infinite; }
+    @keyframes flow { to { stroke-dashoffset: -40; } }
+    @keyframes pulse { 0% { transform: scale(1); opacity: 0.55; } 100% { transform: scale(1.9); opacity: 0; } }
+    @keyframes blink { 50% { opacity: 0.2; } }
+    @media (prefers-reduced-motion: reduce) {
+      .flow, .pulse, .blink { animation: none; }
+    }
+  </style>
+  <rect width="1200" height="260" fill="#F6F0E5"/>
+  <rect x="48" y="36" width="352" height="188" fill="#EFE7D9" stroke="#CFC3B1"/><rect x="48" y="36" width="352" height="4" fill="#E0400C"/><text x="72" y="80" class="mono accent" font-size="14" font-weight="700">01</text><rect x="320" y="58" width="56" height="9" fill="#E0400C" stroke="#16120F" stroke-width="1.5"/><rect x="320" y="72" width="56" height="9" fill="none" stroke="#16120F" stroke-width="1.5"/><rect x="320" y="86" width="56" height="9" fill="none" stroke="#16120F" stroke-width="1.5"/><text x="72" y="148" class="sans text" font-size="34" font-weight="800">SYSTEMS</text><text x="72" y="180" class="mono muted" font-size="13">DISTRIBUTED RUNTIMES</text><text x="72" y="202" class="mono muted" font-size="13">ISOLATION AND INFRASTRUCTURE</text><rect x="424" y="36" width="352" height="188" fill="#EFE7D9" stroke="#CFC3B1"/><rect x="424" y="36" width="352" height="4" fill="#E0400C"/><text x="448" y="80" class="mono accent" font-size="14" font-weight="700">02</text><line x1="696" y1="76" x2="724" y2="58" stroke="#16120F" stroke-width="1.5"/><line x1="696" y1="76" x2="724" y2="94" stroke="#16120F" stroke-width="1.5"/><line x1="724" y1="58" x2="752" y2="76" stroke="#16120F" stroke-width="1.5"/><line x1="724" y1="94" x2="752" y2="76" stroke="#16120F" stroke-width="1.5"/><line x1="724" y1="58" x2="724" y2="94" stroke="#16120F" stroke-width="1.5"/><circle cx="696" cy="76" r="5" fill="#EFE7D9" stroke="#16120F" stroke-width="1.5"/><circle cx="724" cy="58" r="5" fill="#EFE7D9" stroke="#16120F" stroke-width="1.5"/><circle cx="724" cy="94" r="5" fill="#EFE7D9" stroke="#16120F" stroke-width="1.5"/><circle cx="752" cy="76" r="5" fill="#E0400C" stroke="#16120F" stroke-width="1.5"/><text x="448" y="148" class="sans text" font-size="34" font-weight="800">INTELLIGENCE</text><text x="448" y="180" class="mono muted" font-size="13">AGENTS AND ORCHESTRATION</text><text x="448" y="202" class="mono muted" font-size="13">RETRIEVAL AND EVALUATION</text><rect x="800" y="36" width="352" height="188" fill="#EFE7D9" stroke="#CFC3B1"/><rect x="800" y="36" width="352" height="4" fill="#E0400C"/><text x="824" y="80" class="mono accent" font-size="14" font-weight="700">03</text><rect x="1072" y="58" width="56" height="40" fill="none" stroke="#16120F" stroke-width="1.5" stroke-dasharray="4 4"/><rect x="1084" y="67" width="32" height="22" fill="none" stroke="#16120F" stroke-width="1.5"/><rect x="1094" y="73" width="12" height="10" fill="#E0400C"/><text x="824" y="148" class="sans text" font-size="34" font-weight="800">SECURITY</text><text x="824" y="180" class="mono muted" font-size="13">RED-TEAM WORKFLOWS</text><text x="824" y="202" class="mono muted" font-size="13">DEFENSIVE AI BENCHMARKS</text>
+</svg>
