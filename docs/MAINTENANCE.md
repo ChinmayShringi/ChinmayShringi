@@ -14,6 +14,10 @@ python3 docs/assets/build_assets.py
 | `domains-dark.svg`, `domains-light.svg` | Three-domain banner above the Domains list |
 | `footer-dark.svg`, `footer-light.svg` | Closing graphic |
 
+The README delivers these files through commit-pinned [jsDelivr GitHub URLs](https://www.jsdelivr.com/?docs=gh), which GitHub serves through its Camo image proxy. This avoids direct raw.githubusercontent.com requests that failed during live browser verification. The editable source stays in this repository.
+
+After changing artwork, regenerate it, commit and push the asset files, then update all nine README image/source URLs to that asset commit SHA and publish the README change. Keep the full commit SHA in each URL so cached images are immutable.
+
 To change colors, edit the `THEMES` palette at the top of the script. To change text inside a graphic, edit the matching function (`hero`, `domain_card` and `DOMAIN_CARDS`, `footer`) and regenerate. Keep these rules so GitHub renders the files safely:
 
 - No scripts, `foreignObject`, external fonts, external images or links inside SVGs.

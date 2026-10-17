@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="docs/assets/hero-light.svg">
-  <img src="docs/assets/hero-light.svg" width="100%" alt="Chinmay Shringi. Systems. Intelligence. Security. A field-notes style header with a request routed to CPU, GPU and NPU targets inside a safety boundary.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/ChinmayShringi/ChinmayShringi@41a6393b00889e07c578051c218d964e9da9247a/docs/assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/ChinmayShringi/ChinmayShringi@41a6393b00889e07c578051c218d964e9da9247a/docs/assets/hero-light.svg">
+  <img src="https://cdn.jsdelivr.net/gh/ChinmayShringi/ChinmayShringi@41a6393b00889e07c578051c218d964e9da9247a/docs/assets/hero-light.svg" width="100%" alt="Chinmay Shringi. Systems. Intelligence. Security. A field-notes style header with a request routed to CPU, GPU and NPU targets inside a safety boundary.">
 </picture>
 
 <p align="center">
@@ -27,9 +27,9 @@ I'm **Chinmay Shringi**, a full-stack engineer and researcher in New York. I bui
 ## Domains
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/domains-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="docs/assets/domains-light.svg">
-  <img src="docs/assets/domains-light.svg" width="100%" alt="Three domains: 01 Systems, 02 Intelligence, 03 Security.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/ChinmayShringi/ChinmayShringi@41a6393b00889e07c578051c218d964e9da9247a/docs/assets/domains-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/ChinmayShringi/ChinmayShringi@41a6393b00889e07c578051c218d964e9da9247a/docs/assets/domains-light.svg">
+  <img src="https://cdn.jsdelivr.net/gh/ChinmayShringi/ChinmayShringi@41a6393b00889e07c578051c218d964e9da9247a/docs/assets/domains-light.svg" width="100%" alt="Three domains: 01 Systems, 02 Intelligence, 03 Security.">
 </picture>
 
 - **01 / Systems.** Distributed inference runtimes, WebAssembly sandboxing in Rust and C, and microservice back ends.
@@ -113,7 +113,7 @@ Reach me at **[cs7810@nyu.edu](mailto:cs7810@nyu.edu)**, on **[LinkedIn](https:/
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/footer-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="docs/assets/footer-light.svg">
-  <img src="docs/assets/footer-light.svg" width="100%" alt="End of notes.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/ChinmayShringi/ChinmayShringi@41a6393b00889e07c578051c218d964e9da9247a/docs/assets/footer-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/ChinmayShringi/ChinmayShringi@41a6393b00889e07c578051c218d964e9da9247a/docs/assets/footer-light.svg">
+  <img src="https://cdn.jsdelivr.net/gh/ChinmayShringi/ChinmayShringi@41a6393b00889e07c578051c218d964e9da9247a/docs/assets/footer-light.svg" width="100%" alt="End of notes.">
 </picture>
