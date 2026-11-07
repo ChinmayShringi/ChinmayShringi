@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="1200" height="220" role="img" aria-labelledby="title desc">
   <title id="title">End of notes</title>
-  <desc id="desc">A routing line that ends at a glowing vermilion node, closing the profile.</desc>
+  <desc id="desc">Closing sheet listing the profile's design tokens (ink, paper, vermilion, ember, stone) beside a routing line that ends at a glowing vermilion node.</desc>
   <style>
     .sans { font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     .mono { font-family: 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; letter-spacing: 2px; }
@@ -22,19 +22,19 @@
       <circle cx="2" cy="2" r="1.2" fill="#2A241F"/>
     </pattern>
   </defs>
-  <rect width="1200" height="200" fill="#12100E"/>
-  <rect width="1200" height="200" fill="url(#dots)"/>
-  <rect x="24" y="24" width="1152" height="152" fill="none" stroke="#3A332C" stroke-width="1"/><path d="M24 42V24H42" fill="none" stroke="#FF5A1F" stroke-width="3"/><path d="M1158 24H1176V42" fill="none" stroke="#FF5A1F" stroke-width="3"/><path d="M24 158V176H42" fill="none" stroke="#FF5A1F" stroke-width="3"/><path d="M1158 176H1176V158" fill="none" stroke="#FF5A1F" stroke-width="3"/>
+  <rect width="1200" height="220" fill="#12100E"/>
+  <rect width="1200" height="220" fill="url(#dots)"/>
+  <rect x="24" y="24" width="1152" height="172" fill="none" stroke="#3A332C" stroke-width="1"/><path d="M24 42V24H42" fill="none" stroke="#FF5A1F" stroke-width="3"/><path d="M1158 24H1176V42" fill="none" stroke="#FF5A1F" stroke-width="3"/><path d="M24 178V196H42" fill="none" stroke="#FF5A1F" stroke-width="3"/><path d="M1158 196H1176V178" fill="none" stroke="#FF5A1F" stroke-width="3"/>
+  <text x="64" y="50" class="mono muted" font-size="11">DESIGN TOKENS</text>
+  <rect x="64" y="64" width="64" height="64" rx="12" fill="#F4EDE1" stroke="#3A332C" stroke-width="1.5"/><text x="64" y="150" class="mono text" font-size="11">INK</text><text x="64" y="168" class="mono muted" font-size="11">#F4EDE1</text><rect x="192" y="64" width="64" height="64" rx="12" fill="#12100E" stroke="#3A332C" stroke-width="1.5"/><text x="192" y="150" class="mono text" font-size="11">PAPER</text><text x="192" y="168" class="mono muted" font-size="11">#12100E</text><rect x="320" y="64" width="64" height="64" rx="12" fill="#FF5A1F" stroke="#3A332C" stroke-width="1.5"/><text x="320" y="150" class="mono text" font-size="11">VERMILION</text><text x="320" y="168" class="mono muted" font-size="11">#FF5A1F</text><rect x="448" y="64" width="64" height="64" rx="12" fill="#FF9A3C" stroke="#3A332C" stroke-width="1.5"/><text x="448" y="150" class="mono text" font-size="11">EMBER</text><text x="448" y="168" class="mono muted" font-size="11">#FF9A3C</text><rect x="576" y="64" width="64" height="64" rx="12" fill="#9A9086" stroke="#3A332C" stroke-width="1.5"/><text x="576" y="150" class="mono text" font-size="11">STONE</text><text x="576" y="168" class="mono muted" font-size="11">#9A9086</text>
   <g aria-hidden="true">
-    <path d="M64 100H360V70H620V100H1000" fill="none" stroke="#3A332C" stroke-width="2.5"/>
-    <path class="flow" d="M64 100H360V70H620V100H1000"/>
-    <circle cx="64" cy="100" r="6" fill="#12100E" stroke="#F4EDE1" stroke-width="2"/>
-    <circle cx="360" cy="100" r="4" fill="#3A332C"/>
-    <circle cx="620" cy="70" r="4" fill="#3A332C"/>
-    <circle class="pulse" cx="1030" cy="100" r="22"/>
-    <circle cx="1030" cy="100" r="22" class="accent"/>
-    <circle class="blink" cx="1030" cy="100" r="6" fill="#12100E"/>
+    <path d="M720 96H820V72H940V96H1020" fill="none" stroke="#3A332C" stroke-width="2.5"/>
+    <path class="flow" d="M720 96H820V72H940V96H1020"/>
+    <circle cx="720" cy="96" r="6" fill="#12100E" stroke="#F4EDE1" stroke-width="2"/>
+    <circle class="pulse" cx="1050" cy="96" r="22"/>
+    <circle cx="1050" cy="96" r="22" class="accent"/>
+    <circle class="blink" cx="1050" cy="96" r="6" fill="#12100E"/>
   </g>
-  <text x="64" y="150" class="mono muted" font-size="13">END OF NOTES // SIGNAL OPEN</text>
-  <text x="1136" y="150" text-anchor="end" class="mono muted" font-size="13">CS7810 AT NYU.EDU</text>
+  <text x="1136" y="150" text-anchor="end" class="mono text" font-size="12">END OF NOTES // SIGNAL OPEN</text>
+  <text x="1136" y="168" text-anchor="end" class="mono muted" font-size="12">CS7810 AT NYU.EDU</text>
 </svg>
