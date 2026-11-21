@@ -1,7 +1,20 @@
-import { marked } from 'marked';
+import { Marked } from 'marked';
 import sanitizeHtml from 'sanitize-html';
 
 const site = 'https://chinmay-systems-atlas.vercel.app';
+const markdown = new Marked({ gfm: true }, {
+  renderer: {
+    heading({ depth, text, tokens }) {
+      if (depth !== 2 || text !== 'Research publications') return false;
+      return `<h2 id="research-publications">${this.parser.parseInline(tokens)}</h2>\n`;
+    },
+  },
+});
+// The hosted page has a fixed dark theme. Its printed artwork uses the light variant.
+const siteMedia = new Map([
+  ['(prefers-color-scheme: dark)', 'screen'],
+  ['(prefers-color-scheme: light)', 'print'],
+]);
 
 function sitePath(value) {
   if (value === '#open-source-contributions') return '/contributions/';
@@ -12,8 +25,8 @@ function sitePath(value) {
   return value;
 }
 
-export function renderProfile(markdown) {
-  return sanitizeHtml(marked.parse(markdown, { gfm: true }), {
+export function renderProfile(source) {
+  return sanitizeHtml(markdown.parse(source), {
     allowedTags: [
       'a', 'b', 'blockquote', 'br', 'code', 'del', 'details', 'div', 'em', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
       'hr', 'i', 'img', 'li', 'ol', 'p', 'picture', 'pre', 'source', 'strong', 'summary', 'table',
@@ -21,6 +34,7 @@ export function renderProfile(markdown) {
     ],
     allowedAttributes: {
       a: ['href', 'title'], br: ['clear'], code: ['class'], details: ['open'], div: ['align'],
+      h2: [{ name: 'id', values: ['research-publications'] }],
       img: ['src', 'alt', 'title', 'width', 'height', 'align'], ol: ['start'], p: ['align'],
       source: ['srcset', 'media', 'type'], td: ['width', 'align', 'colspan', 'rowspan'], th: ['align', 'scope'],
     },
@@ -33,7 +47,11 @@ export function renderProfile(markdown) {
       img: (tagName, a) => ({ tagName, attribs: { ...a, src: sitePath(a.src ?? '') } }),
       source: (tagName, a) => ({
         tagName,
-        attribs: { ...a, srcset: (a.srcset ?? '').replace(/(^|,\s+)(\S+)/g, (_, separator, url) => separator + sitePath(url)) },
+        attribs: {
+          ...a,
+          ...(a.media && { media: siteMedia.get(a.media) ?? a.media }),
+          srcset: (a.srcset ?? '').replace(/(^|,\s+)(\S+)/g, (_, separator, url) => separator + sitePath(url)),
+        },
       }),
     },
   });

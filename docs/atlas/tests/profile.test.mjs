@@ -5,10 +5,11 @@ import { renderProfile } from '../scripts/profile.mjs';
 
 const readme = await readFile(new URL('../../../README.md', import.meta.url), 'utf8');
 const config = JSON.parse(await readFile(new URL('../../../vercel.json', import.meta.url), 'utf8'));
+const template = await readFile(new URL('../index.html', import.meta.url), 'utf8');
 
 test('renders all profile sections, nested project headings and code from the README', () => {
   const html = renderProfile(readme);
-  for (const expected of ['whoami', 'Open-source contributions', 'GitHub Analytics', 'Featured Projects', 'Research &amp; Publications', 'Signal Transmission']) {
+  for (const expected of ['whoami', 'Open-source contributions', 'GitHub Analytics', 'Featured Projects', 'Research publications', 'Signal Transmission']) {
     assert.ok(html.includes(expected), expected);
   }
   assert.match(html, /<h3>[^<]*Lind Virtual Machine<\/h3>/u);
@@ -22,7 +23,9 @@ test('renders all profile sections, nested project headings and code from the RE
 
 test('keeps theme pictures, relative assets, public evidence and email links', () => {
   const html = renderProfile(readme);
-  assert.match(html, /<picture>[\s\S]*?srcset="\/readme\/contribution-snake-dark.svg"/);
+  assert.ok(html.includes('media="screen" srcset="/readme/contribution-snake-dark.svg"'));
+  assert.ok(html.includes('media="print" srcset="/readme/contribution-snake-light.svg"'));
+  assert.ok(readme.includes('media="(prefers-color-scheme: light)"'));
   assert.match(html, /src="\/assets\/wave-hello.gif"/);
   assert.match(html, /href="mailto:cs7810@nyu.edu"/);
   assert.match(html, /href="https:\/\/github.com\/Lind-Project\/lind-wasm\/pull\/513"/);
@@ -48,6 +51,18 @@ test('filters active markup and undeclared attributes from public Markdown', () 
   assert.match(html, /align="center"/);
   assert.match(html, /src="\/assets\/one.png"/);
   assert.doesNotMatch(html, /unwanted text|ignore\(|javascript:|onclick|onerror|<script/i);
+});
+
+test('publications navigation targets the rendered source section exactly once', () => {
+  const html = renderProfile(readme);
+  assert.ok(template.includes('href="/#research-publications"'));
+  assert.equal(html.match(/id="research-publications"/g)?.length, 1);
+  assert.match(html, /<h2 id="research-publications">Research publications<\/h2>/);
+  assert.match(html, /<h3>Conference publications<\/h3>\s*<ul>/);
+  assert.ok(html.includes('href="https://doi.org/10.1145/3786335.3813216"'));
+  const sample = renderProfile('## Research publications\n\n[Example paper](https://example.org/paper)');
+  assert.match(sample, /href="https:\/\/example.org\/paper">Example paper<\/a>/);
+  assert.doesNotMatch(renderProfile('<h2 id="profile">Different title</h2>'), /id="profile"/);
 });
 
 test('every remote README image origin is allowed by the site policy', () => {
