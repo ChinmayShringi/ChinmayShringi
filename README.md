@@ -26,17 +26,11 @@
   <a href="https://medium.com/feed/@chinmayshringi4">
     <img src="https://img.shields.io/badge/RSS-FFA500?style=for-the-badge&logo=rss&logoColor=white" alt="RSS"/>
   </a>
-<br/><br/>
 
-<p><a href="#open-source-contributions">Browse my open-source contributions</a> · <a href="https://chinmay-systems-atlas.vercel.app/">Personal website</a></p>
+<p><strong>Researcher at NYU OSIRIS Lab</strong> · IC3 researcher at Cornell Tech · AWS Certified Cloud Practitioner</p>
 
-<!-- Animated Typing SVG -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6E5494&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%F0%9F%94%90+Researcher+%40+NYU+OSIRIS+Lab;%E2%98%81%EF%B8%8F+AWS+Certified+Cloud+Practitioner;%F0%9F%8E%AF+IC3+Researcher+%40+Cornell+Tech;" alt="Research at NYU OSIRIS and Cornell Tech IC3, and AWS Certified Cloud Practitioner" />
-</a>
+<p><a href="#open-source-contributions">Open-source contributions</a> · <a href="#research-publications">Research publications</a> · <a href="https://github.com/ChinmayShringi?tab=achievements">GitHub achievements</a> · <a href="https://chinmay-systems-atlas.vercel.app/">Personal website</a></p>
 
-<!-- Profile Views Counter -->
-<br/><br/>
 <img alt="GitHub profile view counter" src="https://komarev.com/ghpvc/?username=ChinmayShringi&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS"/>
 <img alt="GitHub followers" src="https://img.shields.io/github/followers/ChinmayShringi?style=for-the-badge&color=blue&label=FOLLOWERS"/>
 <img alt="GitHub repository stars" src="https://img.shields.io/github/stars/ChinmayShringi?style=for-the-badge&color=yellow&label=STARS"/>
@@ -45,11 +39,6 @@
 
 
 ## 🤖 $ whoami
-
-<!-- Animated About Me Section with Coding GIF -->
-<div align="center">
-<img align="center" alt="Coding" width="50%" src="./assets/coding.gif"/>
-</div>
 
 ```typescript
 const chinmay = {
@@ -418,18 +407,24 @@ const projects = {
 };
 ```
 
-## 📚 Research & Publications
+## Research publications
 
-<div align="center">
+### Conference publications
 
-| 📖 Publication | 🎯 Venue | 📅 Year |
-|:---|:---:|:---:|
-| **An Advanced AI-Driven Database System** | EDULEARN 2025 + arXiv | 2025 |
-| **Zero-Knowledge Proof Bridges for Secure Cross-Chain DeFi** | Stanford Blockchain Conference | 2025 |
-| **Branch-Commit-Validate: Git-Inspired Workflow for Red-Team Agents** | Springer Nature SAM | 2025 |
-| **Consensus-Based Small Language Model Swarms** | SLM-Swarm Framework | 2025 |
+- **GRAFT: gRPC-Routed Agent Framework for Tasking in Edge and Personal Devices**. Chinmay Shringi, Alon Hillel-Tuch, and Sariya Rizwan. ACM Conference on AI and Agentic Systems (CAIS 2026), pp. 1204–1212. [ACM paper](https://doi.org/10.1145/3786335.3813216) · [Open PDF](https://openreview.net/pdf?id=AHUfHheG4V)
+- **Branch-Commit-Validate: A Git-Inspired Workflow for Autonomous Red-Team Agents**. Chinmay Shringi, Alon Hillel-Tuch, and Sariya Rizwan. Poster research paper at CSCE 2025, published in 2026 in Springer's *Communications in Computer and Information Science*, vol. 2937, pp. 525–530. [Springer paper](https://doi.org/10.1007/978-3-032-22208-4_37)
+- **An Advanced AI-Driven Database System**. Mary Tedeschi, Sariya Rizwan, Chinmay Shringi, Vaibhav Devram Chandgir, and Sergio Belich. EDULEARN25, pp. 5130–5139 (2025). [IATED paper](https://doi.org/10.21125/edulearn.2025.1294) · [arXiv 2507.17778](https://arxiv.org/abs/2507.17778) · [City Tech poster program](https://citytech.cuny.edu/annual-poster/docs/poster_2025.pdf) · [Pace research day program](https://csis.pace.edu/~scha/SARD2025/program.html)
 
-</div>
+### Preprint and technical reports
+
+- **Benchmarking Large Language Models as Defensive Operators in High-Fidelity Networks**. Alex Leader, Chinmay Shringi, and Katharine Mahon Kuzin. Spotlight Defensive Cyber Benchmark preprint, v1.1, July 2026. [Preprint PDF](https://spotlight-benchmark-public.s3.us-east-2.amazonaws.com/public/spotlight-defensive-cyber-benchmark-preprint-v1.1.pdf)
+- **Visual Simulation of Algebraic AI Hardware Accelerators**. Chinmay Shringi. Technical report, April 2025. [Read the report](https://github.com/ChinmayShringi/ai-accelerated-hardware/blob/main/report.md)
+- **Kindred Tails**. Chinmay Shringi, Hetarth Sangrajka, and Dhruv Desai. Undergraduate project report, Uka Tarsadia University, 2021. [Project repository](https://github.com/ChinmayShringi/KindredTails)
+
+### Related research
+
+- **Zero-Knowledge Proof Bridges for Secure Cross-Chain DeFi**. Directed research with Prof. Ayesha Kiani. I submitted the project abstract to the 2025 Science of Blockchain Conference. [Project description](https://www.linkedin.com/in/chinmay-shringi)
+- **SLM Swarm Evaluation System**. A research software project for comparing small language model swarms with a single larger model on dialogue summarization. [Code and evaluation setup](https://github.com/ChinmayShringi/slm-swarm)
 
 ## 🏆 Achievements & Recognition
 
@@ -488,6 +483,8 @@ const projects = {
 </div>
 
 ## 📡 Signal Transmission (Contact)
+
+[Ask a question about my projects or publications](https://github.com/ChinmayShringi/ChinmayShringi/discussions/categories/q-a)
 
 <div align="center">
 
