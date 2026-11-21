@@ -17,7 +17,9 @@ const siteMedia = new Map([
 ]);
 
 function sitePath(value) {
-  if (value === '#open-source-contributions') return '/contributions/';
+  const section = value.replace(/^#user-content-/, '#');
+  if (section === '#open-source-contributions') return '/contributions/';
+  if (section === '#research-publications') return section;
   const relative = value.replace(/^\.\//, '');
   if (relative.startsWith('assets/')) return '/' + relative;
   if (relative.startsWith('docs/assets/')) return '/readme/' + relative.slice('docs/assets/'.length);

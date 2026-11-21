@@ -35,9 +35,10 @@ test('keeps theme pictures, relative assets, public evidence and email links', (
 
 test('GitHub uses repository artwork and a local section, while the website uses its public routes', () => {
   const html = renderProfile(readme);
-  assert.ok(readme.includes('href="#open-source-contributions"'));
+  assert.ok(readme.includes('href="#user-content-open-source-contributions"'));
   assert.ok(readme.includes('## Open-source contributions'));
-  assert.ok(html.includes('href="/contributions/"'));
+  assert.ok(html.includes('href="/contributions/">Open-source contributions</a>'));
+  assert.ok(renderProfile('[Earlier link](#open-source-contributions)').includes('href="/contributions/"'));
   for (const file of ['github-stats.svg', 'top-languages.svg', 'contribution-snake-light.svg', 'contribution-snake-dark.svg']) {
     assert.ok(readme.includes(`="./docs/assets/${file}"`), file);
     assert.ok(html.includes(`="/readme/${file}"`), file);
@@ -55,6 +56,8 @@ test('filters active markup and undeclared attributes from public Markdown', () 
 
 test('publications navigation targets the rendered source section exactly once', () => {
   const html = renderProfile(readme);
+  assert.ok(readme.includes('href="#user-content-research-publications"'));
+  assert.ok(html.includes('href="#research-publications">Research publications</a>'));
   assert.ok(template.includes('href="/#research-publications"'));
   assert.equal(html.match(/id="research-publications"/g)?.length, 1);
   assert.match(html, /<h2 id="research-publications">Research publications<\/h2>/);

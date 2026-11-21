@@ -29,7 +29,7 @@
 
 <p><strong>Researcher at NYU OSIRIS Lab</strong> · IC3 researcher at Cornell Tech · AWS Certified Cloud Practitioner</p>
 
-<p><a href="#open-source-contributions">Open-source contributions</a> · <a href="#research-publications">Research publications</a> · <a href="https://github.com/ChinmayShringi?tab=achievements">GitHub achievements</a> · <a href="https://chinmay-systems-atlas.vercel.app/">Personal website</a></p>
+<p><a href="#user-content-open-source-contributions">Open-source contributions</a> · <a href="#user-content-research-publications">Research publications</a> · <a href="https://chinmay-systems-atlas.vercel.app/">Personal website</a></p>
 
 <img alt="GitHub profile view counter" src="https://komarev.com/ghpvc/?username=ChinmayShringi&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS"/>
 <img alt="GitHub followers" src="https://img.shields.io/github/followers/ChinmayShringi?style=for-the-badge&color=blue&label=FOLLOWERS"/>
