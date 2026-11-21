@@ -1,0 +1,28 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm --prefix docs/atlas ci --include=dev --ignore-scripts",
+  "buildCommand": "npm --prefix docs/atlas run build",
+  "outputDirectory": "docs/atlas/dist",
+  "cleanUrls": true,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Content-Security-Policy", "value": "default-src 'none'; style-src 'self'; img-src 'self' https://capsule-render.vercel.app https://github-profile-summary-cards.vercel.app https://github-readme-activity-graph.vercel.app https://img.shields.io https://komarev.com https://quotes-github-readme.vercel.app https://readme-jokes.vercel.app https://readme-typing-svg.demolab.com https://skillicons.dev; base-uri 'none'; form-action 'none'; frame-ancestors 'none'" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "no-referrer" },
+        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=(), interest-cohort=()" },
+        { "key": "Cross-Origin-Opener-Policy", "value": "same-origin" }
+      ]
+    },
+    {
+      "source": "/(readme|assets)/(.*\\.svg)",
+      "headers": [
+        { "key": "Content-Security-Policy", "value": "default-src 'none'; style-src 'unsafe-inline'; sandbox" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Cache-Control", "value": "public, max-age=3600" }
+      ]
+    }
+  ]
+}

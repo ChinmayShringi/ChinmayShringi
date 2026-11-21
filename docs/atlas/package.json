@@ -1,13 +1,17 @@
 {
-  "name": "systems-atlas",
+  "name": "github-profile-site",
   "private": true,
   "type": "module",
-  "description": "Static interactive atlas of Chinmay Shringi's projects and research.",
+  "description": "Static pages generated from the public GitHub profile README.",
   "engines": {
     "node": ">=24"
   },
   "scripts": {
     "test": "node --test",
     "build": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "marked": "18.2.1",
+    "sanitize-html": "2.18.2"
   }
 }

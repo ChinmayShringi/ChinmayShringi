@@ -37,18 +37,6 @@ test('content data is frozen', () => {
   assert.throws(() => { ITEMS[0].links.push({}); }, TypeError);
 });
 
-test('static HTML fallback stays in sync with content', async () => {
-  const html = await readFile(join(ROOT, 'index.html'), 'utf8');
-  for (const item of ITEMS) {
-    assert.ok(html.includes(`href="${item.links[0].href}"`), `fallback link for ${item.id}`);
-    if (item.kind === 'paper') assert.ok(html.includes(item.fullTitle), `research title for ${item.id}`);
-  }
-  const count = (kind) => String(ITEMS.filter((i) => i.kind === kind).length).padStart(2, '0');
-  assert.ok(html.includes(`<dt>Projects</dt><dd>${count('project')}</dd>`));
-  assert.ok(html.includes(`<dt>Papers</dt><dd>${count('paper')}</dd>`));
-  assert.ok(html.includes(`<dt>Shared ideas</dt><dd>${String(RELATIONS.length).padStart(2, '0')}</dd>`));
-});
-
 test('lab sample includes an unsupported capability and a remote-only one', () => {
   const offered = new Set(LAB_DEVICES.flatMap((d) => d.capabilities));
   assert.ok(LAB_CAPABILITIES.some((c) => !offered.has(c.id)));

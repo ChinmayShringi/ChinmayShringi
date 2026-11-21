@@ -1,0 +1,50 @@
+:root {
+  color-scheme: light dark;
+  --paper: #fff; --ink: #20252c; --subtle: #59636e; --border: #d2d9e0; --tint: #f5f7fa; --link: #0759aa;
+  font: 100%/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --paper: #0d1117; --ink: #e6edf3; --subtle: #a3afbc; --border: #343d48; --tint: #161b22; --link: #79b8ff; }
+}
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); }
+header { border-bottom: 1px solid var(--border); }
+nav, main { width: min(100%, 68rem); margin-inline: auto; padding-inline: clamp(1rem, 4vw, 3.5rem); }
+nav { display: flex; align-items: center; gap: 1.15rem; min-height: 3.5rem; font-size: 0.92rem; }
+nav a:first-child { font-weight: 700; margin-right: auto; }
+nav a { color: var(--ink); }
+main { padding-block: 1.8rem 4rem; overflow-wrap: anywhere; }
+main:focus { outline: none; }
+a { color: var(--link); text-underline-offset: 0.14em; }
+:focus-visible { outline: 2px solid var(--link); outline-offset: 3px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.skip { position: absolute; top: -5rem; padding: 0.65rem 1rem; background: var(--paper); }
+.skip:focus { top: 0; }
+h1, h2, h3 { line-height: 1.2; margin: 1.45em 0 0.65em; }
+h1 { font-size: clamp(2rem, 4.7vw, 3.4rem); letter-spacing: -0.045em; }
+h2 { font-size: clamp(1.45rem, 3vw, 2rem); padding-bottom: 0.35em; border-bottom: 1px solid var(--border); }
+h3 { font-size: 1.2rem; }
+main > :first-child { margin-top: 0; }
+img { max-width: 100%; object-fit: contain; vertical-align: middle; }
+img[height] { height: auto; max-height: 180px; }
+p, ul, ol, pre, table, blockquote, details { margin-block: 0.8rem; }
+li + li { margin-top: 0.35rem; }
+ul, ol { padding-left: 1.5rem; }
+pre, code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.9em; background: var(--tint); }
+pre { padding: 1rem; max-width: 100%; overflow: auto; border-radius: 0.45rem; text-align: left; }
+code { padding: 0.12em 0.3em; border-radius: 0.2em; }
+pre code { padding: 0; font-size: inherit; }
+blockquote { margin-inline: 0; border-left: 3px solid var(--border); padding-left: 1rem; color: var(--subtle); }
+table { border-collapse: collapse; max-width: 100%; }
+td, th { padding: 0.55rem 0.75rem; border: 1px solid var(--border); vertical-align: top; }
+th { background: var(--tint); }
+td h3:first-child { margin-top: 0.35rem; }
+details { padding: 0.6rem 0.8rem; border: 1px solid var(--border); border-radius: 0.35rem; }
+summary { cursor: pointer; font-weight: 650; }
+@media (max-width: 600px) {
+  nav { gap: 0.8rem; font-size: 0.85rem; flex-wrap: wrap; }
+  main { padding-top: 1rem; }
+  th, td { padding: 0.35rem; }
+  table:has(td[width="50%"]), table:has(td[width="50%"]) :is(tbody, tr, td) { display: block; width: 100%; }
+  table:has(td[width="50%"]) td + td { margin-top: 0.5rem; }
+}

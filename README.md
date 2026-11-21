@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Header with Capsule Render -->
-<img src="https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&customColorList=0,2,2,5,30&text=CHINMAY%20SHRINGI&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=55&desc=Senior%20Full%20Stack%20Developer%20|%20Security%20Researcher%20|%20NYU%20|%20AWS%20Certified&descSize=18&descAlignY=75&stroke=ffffff&strokeWidth=2"/>
+<img alt="Chinmay Shringi, senior full stack developer and security researcher" src="https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&customColorList=0,2,2,5,30&text=CHINMAY%20SHRINGI&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=55&desc=Senior%20Full%20Stack%20Developer%20|%20Security%20Researcher%20|%20NYU%20|%20AWS%20Certified&descSize=18&descAlignY=75&stroke=ffffff&strokeWidth=2"/>
 
 <!-- Animated Wave Hello -->
 <img src="./assets/wave-hello.gif" width="35px" alt="wave"/>
@@ -28,16 +28,18 @@
   </a>
 <br/><br/>
 
+<p><a href="#open-source-contributions">Browse my open-source contributions</a> · <a href="https://chinmay-systems-atlas.vercel.app/">Personal website</a></p>
+
 <!-- Animated Typing SVG -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6E5494&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%F0%9F%94%90+Researcher+%40+NYU+OSIRIS+Lab;%E2%98%81%EF%B8%8F+AWS+Certified+Cloud+Practitioner;%F0%9F%8E%AF+IC3+Researcher+%40+Cornell+Tech;" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6E5494&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%F0%9F%94%90+Researcher+%40+NYU+OSIRIS+Lab;%E2%98%81%EF%B8%8F+AWS+Certified+Cloud+Practitioner;%F0%9F%8E%AF+IC3+Researcher+%40+Cornell+Tech;" alt="Research at NYU OSIRIS and Cornell Tech IC3, and AWS Certified Cloud Practitioner" />
 </a>
 
 <!-- Profile Views Counter -->
 <br/><br/>
-<img src="https://komarev.com/ghpvc/?username=ChinmayShringi&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS"/>
-<img src="https://img.shields.io/github/followers/ChinmayShringi?style=for-the-badge&color=blue&label=FOLLOWERS"/>
-<img src="https://img.shields.io/github/stars/ChinmayShringi?style=for-the-badge&color=yellow&label=STARS"/>
+<img alt="GitHub profile view counter" src="https://komarev.com/ghpvc/?username=ChinmayShringi&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS"/>
+<img alt="GitHub followers" src="https://img.shields.io/github/followers/ChinmayShringi?style=for-the-badge&color=blue&label=FOLLOWERS"/>
+<img alt="GitHub repository stars" src="https://img.shields.io/github/stars/ChinmayShringi?style=for-the-badge&color=yellow&label=STARS"/>
 
 </div>
 
@@ -84,6 +86,80 @@ const chinmay = {
 <br clear="right"/>
 
 
+<!-- public-contributions:start -->
+## Open-source contributions
+
+- **Lind Project.** I contributed 89 merged pull requests across RawPOSIX, lind-wasm, and lind-docs. I fixed memory-mapping error handling and memory-protection alignment, and added deterministic signal tests. [Memory mapping](https://github.com/Lind-Project/lind-wasm/pull/494) · [Memory protection](https://github.com/Lind-Project/lind-wasm/pull/513) · [Signal tests](https://github.com/Lind-Project/lind-wasm/pull/658)
+- **Spotlight Defensive Cyber Benchmark.** I coauthored the 39-scenario study of whether AI can diagnose and repair security faults while keeping legitimate services running. [Paper](https://spotlight-benchmark-public.s3.us-east-2.amazonaws.com/public/spotlight-defensive-cyber-benchmark-preprint-v1.1.pdf) · [Open-source offline edition](https://github.com/spotlight-security-ai/offline-benchmark)
+- **Reflex.** Two of my changes were merged into the Python web framework. One gives developers clearer errors for invalid plugin configuration. The other updates how browser pages handle unloading. [Plugin validation](https://github.com/reflex-dev/reflex/pull/6445) · [Page lifecycle](https://github.com/reflex-dev/reflex/pull/6479)
+- **SourceSnap and MicroFish-En.** I reduced the permissions requested by the SourceSnap browser extension. I also maintain an English translation of MiroFish and bring upstream changes into that translation. [SourceSnap permission change](https://github.com/ChinmayShringi/sourcesnap/commit/5a764e831b8b2923651577bd3cf722fccce0c417) · [MicroFish-En translation update](https://github.com/ChinmayShringi/MicroFish-En/commit/7fa91020bdea19bb50f8a5570383799cfc374b47) · [Original MiroFish](https://github.com/666ghj/MiroFish)
+
+Across public repositories owned by others, 105 of my pull requests were merged as of November 21, 2026. [See merged pull requests](https://github.com/search?q=is%3Apr+is%3Apublic+is%3Amerged+author%3AChinmayShringi+-user%3AChinmayShringi&type=pullrequests)
+
+<details>
+<summary>Upstream open-source projects where my changes were merged or committed</summary>
+
+| Project | My contribution |
+| --- | --- |
+| Lind Project | 62 merged PRs in [RawPOSIX](https://github.com/Lind-Project/RawPOSIX/pull/24), 26 in [lind-wasm](https://github.com/Lind-Project/lind-wasm/pull/513), and one [lind-docs README update](https://github.com/Lind-Project/lind-docs/pull/9). |
+| Reflex | Two merged PRs covering [plugin configuration](https://github.com/reflex-dev/reflex/pull/6445) and the [browser page lifecycle](https://github.com/reflex-dev/reflex/pull/6479). |
+| Coro | Five merged PRs, including a [fix for WebSocket reconnects and per-room roles](https://github.com/rahilsinghi/Coro/pull/5). |
+| askNYC | Three merged PRs, including [WebSocket and session persistence](https://github.com/rahilsinghi/askNYC/pull/1) and the [3D map dashboard](https://github.com/rahilsinghi/askNYC/pull/7). |
+| Apex | Added a [command hint for unrecognized home-screen input](https://github.com/pensarai/apex/pull/123). |
+| VoiceAI | Integrated [frontend changes and corrected absolute imports](https://github.com/BMG2001nyu/VoiceAI/pull/8). |
+| LockMicrowatt | Updated the [project README](https://github.com/zwangsyc/LockMicrowatt/pull/1). |
+| DeFi ZKP Governance | Removed [checked-in dependency files](https://github.com/bblackheart013/defi-zkp-governance-nyu/pull/2). |
+| Distributed Computing | Implemented [gRPC job management and a web interface for submitting and monitoring jobs](https://github.com/sariyarizwan/distributed-computing/commit/f9baa6545a1d3964da8034e3c8979cad16df9530). |
+| Scrypted AI hackathon | Fixed the [frontend build configuration](https://github.com/scryptedai/hackathon/commit/de58e469f5d43434c32b0698db703a68ff797e15) for the Coinbase CDP demo. |
+
+</details>
+
+<details>
+<summary>Reviews, reports, and proposed changes</summary>
+
+| Project | Public record |
+| --- | --- |
+| Lind Project | Reviewed 14 pull requests by other contributors across [TriSeal](https://github.com/Lind-Project/TriSeal/pull/5#pullrequestreview-3003631914), [RawPOSIX](https://github.com/Lind-Project/RawPOSIX/pull/14), and [lind-wasm](https://github.com/Lind-Project/lind-wasm/pull/796#pullrequestreview-3835877993). Also reported a [process-wait discrepancy](https://github.com/Lind-Project/lind-wasm/issues/625). |
+| FOSSology | Proposed [scheduler email-client changes](https://github.com/fossology/fossology/pull/3317) and an [alternative mail tool](https://github.com/fossology/fossology/pull/3319). Both PRs closed without merging. |
+| Shannon | Proposed [custom endpoint documentation](https://github.com/KeygraphHQ/shannon/pull/83) and a [worker refresh when changing repositories](https://github.com/KeygraphHQ/shannon/pull/84). Both PRs closed without merging. |
+| Heart Disease Prediction | Opened a [PR adding F1, recall, and precision metrics](https://github.com/Dhruv590/Heart-Disease-prediction-EDA-Model/pull/1). |
+
+</details>
+
+<details>
+<summary>Other public collaborations</summary>
+
+These public projects have mixed licensing or no project-wide open-source license I could verify.
+
+| Projects | My contribution |
+| --- | --- |
+| [Neon Exchange](https://github.com/sariyarizwan/neon-exchange/pull/2) | Two merged PRs integrating the backend and voice features. |
+| [Etch inference hackathon](https://github.com/dalfindata/etch-inference-hktn/pull/8) | Coauthor credit on the merged SalienceCompact benchmark change. |
+| [Lind WebAssembly documentation](https://github.com/Lind-Project/lind-wasm-docs/pull/22) and [Spotlight website](https://github.com/spotlight-security-ai/spotlight-website/pull/16) | Proposed documentation and pricing-page changes respectively. Both PRs closed without merging. |
+| [Kadra](https://github.com/Sachin123456790/kadra/commits?author=ChinmayShringi), [SEO Tool Pulse](https://github.com/BMG2001nyu/SEO_tool_Pulse_Hack/commits?author=ChinmayShringi), and [CDP Smart Accounts](https://github.com/scryptedai/cdp-smart-accounts/commit/d01b88c9264a3e5a6ac468b59c7071cf637ab68e) | Authored commits in repositories with component-specific license declarations. |
+| [Appointment Manager](https://github.com/vivekrekhadia/Appointment-manager-app/commits?author=ChinmayShringi), [Employee Management](https://github.com/HemantRana01/Employee-Management/commits?author=ChinmayShringi), [login_page_ts_redux](https://github.com/RenishSalakhana/login_page_ts_redux/commits?author=ChinmayShringi), [neural-network-jailbreak](https://github.com/fzinnah17/neural-network-jailbreak/commits?author=ChinmayShringi), and [Chibi SQL API](https://github.com/scryptedai/hackthon-chibi-sql-api/commits?author=ChinmayShringi) | Authored commits. |
+| [Food Ordering App Flutter](https://github.com/iamyogik/Food-Ordering-App-Flutter/issues/2#issuecomment-844221191) | Participated in a setup issue discussion. |
+
+</details>
+
+<details>
+<summary>Open-source work under my GitHub account</summary>
+
+Each project below has a public commit credited to this account. The links open the repository or, where noted, the original project.
+
+- **AI and research.** [ai-accelerated-hardware](https://github.com/ChinmayShringi/ai-accelerated-hardware) · [AutoAccel-Microwatt](https://github.com/ChinmayShringi/AutoAccel-Microwatt) · [FarmCNN](https://github.com/ChinmayShringi/FarmCNN) · [ema-signal-pipeline](https://github.com/ChinmayShringi/ema-signal-pipeline) · [persona-ai](https://github.com/ChinmayShringi/persona-ai) · [slm-swarm](https://github.com/ChinmayShringi/slm-swarm) · [shoemaker-elves](https://github.com/ChinmayShringi/shoemaker-elves) · [one-shot-compression](https://github.com/ChinmayShringi/one-shot-compression).
+- **Developer tools and apps.** [freePDF](https://github.com/ChinmayShringi/freePDF) · [PitchPilot](https://github.com/ChinmayShringi/PitchPilot) · [snapdeck](https://github.com/ChinmayShringi/snapdeck) · [watch-dot-voice](https://github.com/ChinmayShringi/watch-dot-voice) · [whisperglass](https://github.com/ChinmayShringi/whisperglass) · [KindredTails](https://github.com/ChinmayShringi/KindredTails) · [TermiteFabrications](https://github.com/ChinmayShringi/TermiteFabrications) · [StreamOS](https://github.com/ChinmayShringi/StreamOS).
+- **Web and graphics.** [AngularShoelace](https://github.com/ChinmayShringi/AngularShoelace) · [CRUDServer](https://github.com/ChinmayShringi/CRUDServer) · [javascript_task](https://github.com/ChinmayShringi/javascript_task) · [jsImageManipulation](https://github.com/ChinmayShringi/jsImageManipulation) · [MongoImageCRUD](https://github.com/ChinmayShringi/MongoImageCRUD) · [MulterNode](https://github.com/ChinmayShringi/MulterNode) · [Node-ejs-mongodb-Login](https://github.com/ChinmayShringi/Node-ejs-mongodb-Login) · [pizzaTemplateReact](https://github.com/ChinmayShringi/pizzaTemplateReact) · [ReactCRUD](https://github.com/ChinmayShringi/ReactCRUD) · [threeDModel](https://github.com/ChinmayShringi/threeDModel) · [threejsCourse](https://github.com/ChinmayShringi/threejsCourse).
+- **Flutter and mobile.** [Cart_Flutter_ui](https://github.com/ChinmayShringi/Cart_Flutter_ui) · [CoffeeHouse_FlutterUI](https://github.com/ChinmayShringi/CoffeeHouse_FlutterUI) · [Connect_Flutter](https://github.com/ChinmayShringi/Connect_Flutter) · [ConnectFirebase](https://github.com/ChinmayShringi/ConnectFirebase) · [CovidTracker](https://github.com/ChinmayShringi/CovidTracker) · [flutter_slide_animation](https://github.com/ChinmayShringi/flutter_slide_animation) · [FoodApp_FlutterUi](https://github.com/ChinmayShringi/FoodApp_FlutterUi) · [NeuMorph_Calculater_FlutterUI](https://github.com/ChinmayShringi/NeuMorph_Calculater_FlutterUI) · [NeuMorphFlutter](https://github.com/ChinmayShringi/NeuMorphFlutter) · [Plant_FlutterUI](https://github.com/ChinmayShringi/Plant_FlutterUI) · [Plant_SideNav_FlutterUI](https://github.com/ChinmayShringi/Plant_SideNav_FlutterUI) · [theBarber_FlutterUI](https://github.com/ChinmayShringi/theBarber_FlutterUI) · [TimeZone](https://github.com/ChinmayShringi/TimeZone) · [Water_level](https://github.com/ChinmayShringi/Water_level).
+- **C++.** [C-PeriodicTable](https://github.com/ChinmayShringi/C-PeriodicTable).
+
+- **Translations and related repositories.** [MicroFish-En](https://github.com/ChinmayShringi/MicroFish-En) is my English translation of [MiroFish](https://github.com/666ghj/MiroFish). [SourceSnap](https://github.com/ChinmayShringi/sourcesnap) and [source-navigator](https://github.com/ChinmayShringi/source-navigator) are related extension repositories. My [Coinbase CDP demo](https://github.com/ChinmayShringi/hackathon-) is also listed above under the Scrypted AI hackathon.
+- **Template imports.** My [NestJS](https://github.com/ChinmayShringi/nestjs-boilerplate) and [Next.js](https://github.com/ChinmayShringi/nextjs-boilerplate) repositories are imports of the [brocoders](https://github.com/brocoders/nestjs-boilerplate) and [ixartz](https://github.com/ixartz/Next-js-Boilerplate) templates, respectively.
+- **Work on a fork.** I [updated the README](https://github.com/ChinmayShringi/Skype-Clone/commit/ddcdeae8d8473ff6bbb0814d4e1aaae99438a54f) on my fork of [Ronak99’s Skype-Clone](https://github.com/Ronak99/Skype-Clone). Forks used to submit upstream PRs appear under their upstream projects above.
+
+</details>
+<!-- public-contributions:end -->
+
 ## 🚀 Mission Control
 
 <div align="center">
@@ -102,68 +178,68 @@ const chinmay = {
 </div>
 
 
-## <img src="./assets/tech-arsenal.gif" width ="28"> Tech Arsenal
+## <img alt="" src="./assets/tech-arsenal.gif" width ="28"> Tech Arsenal
 
 <div align="center">
 
 ### ⚔️ Languages & Core
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=go,python,js,ts,rust,cpp,java,graphql,bash&perline=9&theme=dark" />
+  <img alt="Go, Python, JavaScript, TypeScript, Rust, C++, Java, GraphQL and Bash" src="https://skillicons.dev/icons?i=go,python,js,ts,rust,cpp,java,graphql,bash&perline=9&theme=dark" />
 </a>
 
 ### 🎨 Frontend Sorcery
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,angular,vue,tailwind,materialui,html,css,sass&perline=9&theme=dark" />
+  <img alt="React, Next.js, Angular, Vue, Tailwind CSS, Material UI, HTML, CSS and Sass" src="https://skillicons.dev/icons?i=react,nextjs,angular,vue,tailwind,materialui,html,css,sass&perline=9&theme=dark" />
 </a>
 
 ### ⚙️ Backend Wizardry
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=nodejs,nestjs,spring,express,graphql,redis,rabbitmq,kafka&perline=8&theme=dark" />
+  <img alt="Node.js, NestJS, Spring, Express, GraphQL, Redis, RabbitMQ and Kafka" src="https://skillicons.dev/icons?i=nodejs,nestjs,spring,express,graphql,redis,rabbitmq,kafka&perline=8&theme=dark" />
 </a>
 
 ### 🗄️ Databases & Data
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis,elasticsearch,firebase,supabase&perline=7&theme=dark" />
+  <img alt="PostgreSQL, MongoDB, MySQL, Redis, Elasticsearch, Firebase and Supabase" src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis,elasticsearch,firebase,supabase&perline=7&theme=dark" />
 </a>
 
 ### ☁️ Cloud & DevOps
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform,jenkins,githubactions,nginx,linux&perline=8&theme=dark" />
+  <img alt="AWS, Docker, Kubernetes, Terraform, Jenkins, GitHub Actions, Nginx and Linux" src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform,jenkins,githubactions,nginx,linux&perline=8&theme=dark" />
 </a>
 
 ### 🛡️ Security & Tools
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,vim,pytorch,tensorflow,figma,postman&perline=8&theme=dark" />
+  <img alt="Git, GitHub, VS Code, Vim, PyTorch, TensorFlow, Figma and Postman" src="https://skillicons.dev/icons?i=git,github,vscode,vim,pytorch,tensorflow,figma,postman&perline=8&theme=dark" />
 </a>
 
 ### 📱 Mobile & IoT
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=react,flutter,swift,androidstudio,raspberrypi,arduino&perline=6&theme=dark" />
+  <img alt="React, Flutter, Swift, Android Studio, Raspberry Pi and Arduino" src="https://skillicons.dev/icons?i=react,flutter,swift,androidstudio,raspberrypi,arduino&perline=6&theme=dark" />
 </a>
 
 </div>
 
-## <img src="./assets/github-analytics.gif" width="30"> GitHub Analytics
+## <img alt="" src="./assets/github-analytics.gif" width="30"> GitHub Analytics
 
 <div align="center">
 
-<!-- GitHub Stats using multiple providers for reliability -->
-<a href="https://github.com/ChinmayShringi">
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=ChinmayShringi&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866"/>
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ChinmayShringi&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F"/>
+<a href="https://github.com/search?q=is%3Apr+is%3Apublic+author%3AChinmayShringi+-user%3AChinmayShringi+is%3Amerged&amp;type=pullrequests">
+  <img height="180" src="./docs/assets/github-stats.svg" alt="Chinmay Shringi’s public GitHub contribution statistics"/>
 </a>
-
+<a href="https://github.com/ChinmayShringi?tab=repositories">
+  <img height="180" src="./docs/assets/top-languages.svg" alt="Languages across Chinmay Shringi’s public repositories"/>
+</a>
 
 <br/>
 
 <!-- Activity Graph -->
 <a href="https://github.com/ChinmayShringi">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ChinmayShringi&theme=redical&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=FFFFFF&area=true&area_color=F85D7F"/>
+  <img alt="Recent GitHub contribution activity for Chinmay Shringi" src="https://github-readme-activity-graph.vercel.app/graph?username=ChinmayShringi&theme=redical&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=FFFFFF&area=true&area_color=F85D7F"/>
 </a>
 
 <!-- GitHub Profile Summary Cards -->
 <br/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ChinmayShringi&theme=radical"/>
+<img alt="GitHub contribution timeline for Chinmay Shringi" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ChinmayShringi&theme=radical"/>
 
 </div>
 
@@ -174,10 +250,12 @@ const chinmay = {
 
 <!-- Snake Animation -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./docs/assets/contribution-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./docs/assets/contribution-snake-light.svg">
+  <img alt="Snake animation across Chinmay Shringi’s GitHub contribution calendar" src="./docs/assets/contribution-snake-dark.svg" width="100%">
 </picture>
+
+<a href="https://github.com/users/ChinmayShringi/contributions">View my contribution calendar on GitHub</a>
 
 </div>
 
@@ -191,10 +269,10 @@ const chinmay = {
 <td width="50%">
 
 ### 🔒 Lind Virtual Machine
-<a href="https://github.com/ChinmayShringi">
-  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black"/>
-  <img src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white"/>
+<a href="https://github.com/Lind-Project/lind-wasm">
+  <img alt="Rust" src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/>
+  <img alt="C" src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black"/>
+  <img alt="WebAssembly" src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white"/>
 </a>
 
 > 🛡️ Next-gen OS security with cage-based isolation
@@ -206,11 +284,9 @@ const chinmay = {
 <td width="50%">
 
 ### 🤖 OMNI - LLM Cyber Range
-<a href="https://github.com/ChinmayShringi">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/LLM-412991?style=flat-square&logo=openai&logoColor=white"/>
-</a>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+  <img alt="LLM" src="https://img.shields.io/badge/LLM-412991?style=flat-square&logo=openai&logoColor=white"/>
 
 > 🎯 Benchmarking LLMs as Security Analysts
 - Dockerized cyber range environments
@@ -223,10 +299,10 @@ const chinmay = {
 <td width="50%">
 
 ### ⚡ CRPC Consensus Protocol
-<a href="https://github.com/ChinmayShringi">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white"/>
+<a href="https://github.com/ChinmayShringi/crpc-ring-visualizer">
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
+  <img alt="Three.js" src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white"/>
+  <img alt="WebGL" src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white"/>
 </a>
 
 > 🔗 IC3 Research @ Cornell Tech
@@ -238,11 +314,9 @@ const chinmay = {
 <td width="50%">
 
 ### 💰 Credilio - FinTech Platform
-<a href="https://github.com/ChinmayShringi">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-</a>
+  <img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
 
 > 📊 AI-Powered Financial Services
 - 1M+ downloads
@@ -255,11 +329,9 @@ const chinmay = {
 <td width="50%">
 
 ### 🎥 Bozu - Video Platform
-<a href="https://github.com/ChinmayShringi">
-  <img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white"/>
-</a>
+  <img alt="WebRTC" src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white"/>
+  <img alt="Spring Boot" src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white"/>
 
 > 📹 Enterprise Video Conferencing
 - Custom media routing
@@ -270,11 +342,9 @@ const chinmay = {
 <td width="50%">
 
 ### ⚡ Helios - Trading Platform
-<a href="https://github.com/ChinmayShringi">
-  <img src="https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spring_Cloud-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
-</a>
+  <img alt="Java 17" src="https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
+  <img alt="Spring Cloud" src="https://img.shields.io/badge/Spring_Cloud-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
+  <img alt="Kafka" src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
 
 > 💹 High-Frequency Trading Engine
 - 100,000+ TPS
@@ -287,10 +357,10 @@ const chinmay = {
 <td width="50%">
 
 ### 🏠 TermiteFabrications
-<a href="https://github.com/ChinmayShringi">
-  <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/WebAR-FF6B6B?style=flat-square&logo=augmented-reality&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+<a href="https://github.com/ChinmayShringi/TermiteFabrications">
+  <img alt="Three.js" src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white"/>
+  <img alt="WebAR" src="https://img.shields.io/badge/WebAR-FF6B6B?style=flat-square&logo=augmented-reality&logoColor=white"/>
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
 </a>
 
 > 🏗️ 3D Home Building Platform
@@ -302,11 +372,9 @@ const chinmay = {
 <td width="50%">
 
 ### 🏥 Doccine Healthcare
-<a href="https://github.com/ChinmayShringi">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white"/>
-</a>
+  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
+  <img alt="Spring Boot" src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
+  <img alt="Hibernate" src="https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white"/>
 
 > 🩺 Practice Management Platform
 - Nationwide provider network
@@ -367,14 +435,14 @@ const projects = {
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/🏅_Code_NYC_Hackathon-Winner-gold?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/🏅_Coinbase_Hackathon-Winner-gold?style=for-the-badge"/>
+<img alt="Code NYC Hackathon Winner" src="https://img.shields.io/badge/🏅_Code_NYC_Hackathon-Winner-gold?style=for-the-badge"/>
+<img alt="Coinbase Hackathon Winner" src="https://img.shields.io/badge/🏅_Coinbase_Hackathon-Winner-gold?style=for-the-badge"/>
 <br/>
-<img src="https://img.shields.io/badge/🔐_NYU_OSIRIS_Lab-CTF_Lead-purple?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/🎤_NYU_Blockchain_Panel-Speaker-blue?style=for-the-badge"/>
+<img alt="NYU OSIRIS Lab CTF Lead" src="https://img.shields.io/badge/🔐_NYU_OSIRIS_Lab-CTF_Lead-purple?style=for-the-badge"/>
+<img alt="NYU Blockchain Panel Speaker" src="https://img.shields.io/badge/🎤_NYU_Blockchain_Panel-Speaker-blue?style=for-the-badge"/>
 <br/>
-<img src="https://img.shields.io/badge/🌐_CSAW_Security-Organizer-red?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/🎯_IC3_Cornell-Researcher-green?style=for-the-badge"/>
+<img alt="CSAW Security Organizer" src="https://img.shields.io/badge/🌐_CSAW_Security-Organizer-red?style=for-the-badge"/>
+<img alt="IC3 Cornell Researcher" src="https://img.shields.io/badge/🎯_IC3_Cornell-Researcher-green?style=for-the-badge"/>
 
 ### 💪 Impact Metrics
 
@@ -390,7 +458,7 @@ const projects = {
 </div>
 
 
-## 📊 Weekly Coding Stats
+## Coding time snapshot
 
 <!--START_SECTION:waka-->
 ```text
@@ -405,11 +473,12 @@ const projects = {
 
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&border=true"/>
+<img alt="Developer quote of the day" src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&border=true"/>
 
 </div>
 
 <br/>
+
 ## 💻 Random Dev Joke
 
 <div align="center">
@@ -461,16 +530,16 @@ const contact = {
 <img alt="Coding" width="200" src="./assets/coder.gif"/>
 <br/>
 <a href="mailto:cs7810@nyu.edu">
-  <img src="https://img.shields.io/badge/📧_Hire_Me-EA4335?style=for-the-badge"/>
+  <img alt="Hire Me" src="https://img.shields.io/badge/📧_Hire_Me-EA4335?style=for-the-badge"/>
 </a>
 <a href="https://www.linkedin.com/in/chinmay-shringi/">
-  <img src="https://img.shields.io/badge/💼_Connect-0077B5?style=for-the-badge"/>
+  <img alt="Connect" src="https://img.shields.io/badge/💼_Connect-0077B5?style=for-the-badge"/>
 </a>
 <a href="https://chinmayshringi.web.app/">
-  <img src="https://img.shields.io/badge/🌐_Portfolio-FF5722?style=for-the-badge"/>
+  <img alt="Portfolio" src="https://img.shields.io/badge/🌐_Portfolio-FF5722?style=for-the-badge"/>
 </a>
 <a href="https://github.com/ChinmayShringi?tab=repositories">
-  <img src="https://img.shields.io/badge/📂_Projects-181717?style=for-the-badge"/>
+  <img alt="Projects" src="https://img.shields.io/badge/📂_Projects-181717?style=for-the-badge"/>
 </a>
   <a href="https://medium.com/@chinmayshringi4">
     <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/>
@@ -487,9 +556,9 @@ const contact = {
 
 <br/>
 
-<img src="./assets/connecting-people.gif" width="100"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
+<img alt="" src="./assets/connecting-people.gif" width="100"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
 
 **⭐ If you like my work, consider giving my repos a star! ⭐**
 
 </div>
-<img src="./assets/bottom-header.svg" />
+<img alt="" src="./assets/bottom-header.svg" />

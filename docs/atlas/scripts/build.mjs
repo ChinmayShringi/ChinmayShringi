@@ -1,50 +1,48 @@
 #!/usr/bin/env node
-// Builds docs/atlas/dist: only the public runtime files, plus README artwork under /readme/.
-// Usage: node scripts/build.mjs   (or: npm run build)
-
-import { cp, mkdir, readdir, rm, stat } from 'node:fs/promises';
-import { dirname, join, relative } from 'node:path';
+import { cp, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
+import { join } from 'node:path';
+import { renderContributions } from './contributions.mjs';
+import { renderProfile } from './profile.mjs';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
+const ROOT = fileURLToPath(new URL('..', import.meta.url));
+const REPO = join(ROOT, '..', '..');
 const DIST = join(ROOT, 'dist');
-const README_ART = join(ROOT, '..', 'assets');
-const RUNTIME = Object.freeze(['index.html', 'vercel.json', 'assets', 'styles', 'src']);
 
-async function listFiles(dir) {
-  const entries = await readdir(dir, { withFileTypes: true });
-  const nested = await Promise.all(entries.map((entry) => {
-    const path = join(dir, entry.name);
-    return entry.isDirectory() ? listFiles(path) : [path];
-  }));
-  return nested.flat();
-}
-
-async function copyRuntime() {
-  await Promise.all(RUNTIME.map((name) => cp(join(ROOT, name), join(DIST, name), { recursive: true })));
-}
-
-async function copyReadmeArt() {
-  const svgs = (await readdir(README_ART)).filter((name) => name.endsWith('.svg'));
-  if (svgs.length === 0) throw new Error(`No README SVG artwork found in ${README_ART}`);
-  await mkdir(join(DIST, 'readme'), { recursive: true });
-  await Promise.all(svgs.map((name) => cp(join(README_ART, name), join(DIST, 'readme', name))));
-  return svgs;
+async function copyImages(source, target, extensions) {
+  const images = (await readdir(source, { withFileTypes: true }))
+    .filter((entry) => entry.isFile() && extensions.test(entry.name));
+  await mkdir(target, { recursive: true });
+  await Promise.all(images.map(({ name }) => cp(join(source, name), join(target, name))));
 }
 
 async function main() {
+  const [readme, template, vercel] = await Promise.all([
+    readFile(join(REPO, 'README.md'), 'utf8'), readFile(join(ROOT, 'index.html'), 'utf8'),
+    readFile(join(REPO, 'vercel.json'), 'utf8').then(JSON.parse),
+  ]);
+  const page = (title, html) => template
+    .replace('<!-- page-title -->', () => title)
+    .replace('<!-- profile-content -->', () => html);
+  const profile = renderProfile(readme);
+  const title = profile.includes('<h1>') ? '' : '<h1 class="visually-hidden">Chinmay Shringi</h1>';
+  const home = page('Chinmay Shringi', title + profile);
+  const directory = page('Open-source contributions / Chinmay Shringi', renderContributions(readme));
   await rm(DIST, { recursive: true, force: true });
-  await mkdir(DIST, { recursive: true });
-  await copyRuntime();
-  const art = await copyReadmeArt();
-  const files = await listFiles(DIST);
-  const sizes = await Promise.all(files.map((file) => stat(file).then((s) => s.size)));
-  const total = sizes.reduce((sum, size) => sum + size, 0);
-  process.stdout.write(`Built ${files.length} files (${(total / 1024).toFixed(1)} KiB) into ${relative(process.cwd(), DIST) || '.'}\n`);
-  process.stdout.write(`README artwork: ${art.length} SVGs under /readme/\n`);
+  await mkdir(join(DIST, 'contributions'), { recursive: true });
+  await Promise.all([
+    writeFile(join(DIST, 'index.html'), home),
+    writeFile(join(DIST, 'contributions', 'index.html'), directory),
+    cp(join(ROOT, 'styles', 'profile.css'), join(DIST, 'profile.css')),
+    // Direct uploads of dist/ need the same routing and headers, without a second build.
+    writeFile(join(DIST, 'vercel.json'), JSON.stringify({ cleanUrls: vercel.cleanUrls, headers: vercel.headers }, null, 2) + '\n'),
+    copyImages(join(REPO, 'assets'), join(DIST, 'assets'), /\.(gif|png|webp|jpe?g|svg)$/i),
+    copyImages(join(REPO, 'docs', 'assets'), join(DIST, 'readme'), /\.svg$/i),
+  ]);
+  console.log('Built the profile, contribution directory and public artwork in dist/');
 }
 
 main().catch((error) => {
-  process.stderr.write(`Build failed: ${error.message}\n`);
+  console.error(`Build failed: ${error.message}`);
   process.exitCode = 1;
 });

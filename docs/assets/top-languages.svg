@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 206" width="370" height="206" role="img" aria-labelledby="title desc">
+  <title id="title">Top repository languages</title>
+  <desc id="desc">Primary languages by number of public, non-fork repositories. TypeScript 21, Dart 11, JavaScript 11, Python 9, C++ 7</desc>
+  <rect x="1" y="1" width="368" height="204" rx="12" fill="#0d1117" stroke="#30363d"/><g font-family="Inter, system-ui, sans-serif">
+    <text x="20" y="34" font-size="19" font-weight="700" fill="#ff8ba7">Top repository languages</text>
+    <text x="20" y="58" fill="#e6edf3" font-size="13">TypeScript</text>
+<rect x="135" y="50" width="165.0" height="6" rx="3" fill="#56a8ff"/>
+<text x="350" y="58" text-anchor="end" fill="#e6edf3" font-size="14">21</text>
+<text x="20" y="81" fill="#e6edf3" font-size="13">Dart</text>
+<rect x="135" y="73" width="86.4" height="6" rx="3" fill="#64d9d0"/>
+<text x="350" y="81" text-anchor="end" fill="#e6edf3" font-size="14">11</text>
+<text x="20" y="104" fill="#e6edf3" font-size="13">JavaScript</text>
+<rect x="135" y="96" width="86.4" height="6" rx="3" fill="#ffda72"/>
+<text x="350" y="104" text-anchor="end" fill="#e6edf3" font-size="14">11</text>
+<text x="20" y="127" fill="#e6edf3" font-size="13">Python</text>
+<rect x="135" y="119" width="70.7" height="6" rx="3" fill="#bb9bfa"/>
+<text x="350" y="127" text-anchor="end" fill="#e6edf3" font-size="14">9</text>
+<text x="20" y="150" fill="#e6edf3" font-size="13">C++</text>
+<rect x="135" y="142" width="55.0" height="6" rx="3" fill="#ff8ba7"/>
+<text x="350" y="150" text-anchor="end" fill="#e6edf3" font-size="14">7</text>
+    <text x="20" y="189" font-size="11" fill="#adb6c2">Public non-fork repos · 2026-11-21</text>
+  </g>
+</svg>
